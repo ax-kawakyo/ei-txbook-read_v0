@@ -864,7 +864,7 @@
 
       async function loadFileFromRepo(filename) {
         try {
-          const response = await fetch(`./data/${filename}`);
+          const response = await fetch(`./${filename}`);
           if (!response.ok) {
             throw new Error(`ファイル'${filename}'を読み込めませんでした。`);
           }
