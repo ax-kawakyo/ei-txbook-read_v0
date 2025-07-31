@@ -1,0 +1,1272 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>カスタム表裏カード</title>
+    <style>
+      body {
+          background: #f3f4f6;
+          font-family: 'Segoe UI', 'Meiryo', sans-serif;
+          margin: 0;
+          padding: 0;
+      }
+
+      .container {
+          position: relative;
+          width: 100%;
+          max-width: 420px;
+          margin: 2rem auto;
+          background: #fff;
+          border-radius: 16px;
+          box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+          padding: 2rem 1rem 2rem 1rem;
+      }
+
+      .title {
+          text-align: center;
+          font-size: 2rem;
+          font-weight: bold;
+          color: #222;
+          margin-bottom: 1.5rem;
+      }
+
+      .list-card {
+          background: #f9fafb;
+          border-radius: 12px;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+          padding: 1.2rem 1rem;
+          margin-bottom: 1.2rem;
+      }
+
+      .list-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 0.7rem;
+          border-bottom: 1px solid #e5e7eb;
+          padding-bottom: 0.3rem;
+          gap: 0.5rem;
+      }
+
+      .list-title {
+          font-size: 1.2rem;
+          font-weight: 600;
+          color: #333;
+          margin: 0;
+          border: none;
+          padding: 0;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+      }
+      
+      .list-header-buttons {
+          display: flex;
+          gap: 0.5rem;
+          flex-shrink: 0;
+      }
+
+      .header-btn {
+          color: white;
+          border: none;
+          border-radius: 6px;
+          padding: 0.3rem 0.8rem;
+          font-size: 0.9rem;
+          font-weight: 500;
+          cursor: pointer;
+          transition: background 0.2s;
+          flex-shrink: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 0.3em;
+      }
+      .delete-btn {
+          background: #ef4444;
+          color: white;
+      }
+      .delete-btn:hover {
+          background: #dc2626;
+      }
+
+      .progress-info {
+          font-size: 0.8rem;
+          color: #6b7280;
+          margin-bottom: 0.7rem;
+          text-align: center;
+          background: #e5e7eb;
+          padding: 0.3rem 0;
+          border-radius: 6px;
+      }
+
+      .list-btns {
+          display: flex;
+          justify-content: space-around;
+          gap: 0.5rem;
+      }
+
+      .mode-btn {
+          width: 48%;
+          padding: 0.7rem 0;
+          border: none;
+          border-radius: 8px;
+          font-size: 1rem;
+          font-weight: bold;
+          color: #fff;
+          cursor: pointer;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.07);
+          transition: background 0.2s;
+      }
+      .mode-btn.learn { background: #3b82f6; }
+      .mode-btn.learn:hover:not(:disabled) { background: #2563eb; }
+      .mode-btn.test { background: #f59e42; }
+      .mode-btn.test:hover { background: #ea580c; }
+
+      .add-btn {
+          width: 100%;
+          max-width: 260px;
+          padding: 0.8rem 0;
+          background: #22c55e;
+          color: #fff;
+          font-weight: bold;
+          border: none;
+          border-radius: 10px;
+          font-size: 1.1rem;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+          cursor: pointer;
+          transition: background 0.2s, transform 0.2s;
+      }
+      .add-btn:hover {
+          background: #16a34a;
+          transform: scale(1.04);
+      }
+
+      .add-btn-secondary {
+          width: 100%;
+          max-width: 240px;
+          padding: 0.7rem 0;
+          background: #fef08a;
+          color: #1f2937;
+          font-weight: bold;
+          border: 1px solid #facc15;
+          border-radius: 10px;
+          font-size: 1rem;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+          cursor: pointer;
+          transition: background 0.2s, transform 0.2s;
+      }
+      .add-btn-secondary:hover {
+          background: #fde047;
+          transform: scale(1.04);
+      }
+      
+      .card-number {
+          text-align: left;
+          font-size: 1rem;
+          color: #6b7280;
+          margin-bottom: 0.5rem;
+          padding-left: 0.5rem;
+          height: 1.2rem; /* Ensure layout doesn't shift if number is empty */
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+      }
+
+      .card-container {
+          width: 100%;
+          max-width: 400px;
+          min-height: 250px;
+          perspective: 1000px;
+          cursor: pointer;
+          margin: 0 auto 1.5rem auto;
+      }
+
+      .card {
+          width: 100%;
+          position: relative;
+          transform-style: preserve-3d;
+          transition: transform 0.6s, height 0.4s ease-out;
+      }
+
+      .card.is-flipped {
+          transform: rotateY(180deg);
+      }
+
+      .card-face {
+          position: absolute;
+          width: 100%;
+          backface-visibility: hidden;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 15px;
+          box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+          padding: 1.5rem;
+          text-align: center;
+          word-break: break-word;
+          box-sizing: border-box; /* This ensures padding is inside the element's width/height */
+      }
+
+      .card-front {
+          background: #fefce8; /* 薄い黄色 */
+          color: #111827;      /* 黒字 */
+          font-size: 1.5rem;
+          font-weight: bold;
+      }
+
+      .card-back {
+          background: #f0f9ff; /* 薄い水色 */
+          color: #111827;      /* 黒字 */
+          font-size: 1.4rem;
+          font-weight: 600;
+          transform: rotateY(180deg);
+      }
+
+      .done-card .card-front {
+          font-size: 2rem;
+          color: #15803d; /* 完了テキストを緑色に */
+      }
+      
+      .grammar-box {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+          padding: 0.8rem;
+          border: 1px solid #e5e7eb;
+          border-radius: 8px;
+          background: #f9fafb;
+          text-align: left;
+      }
+
+      .grammar-item {
+          font-size: 1rem;
+          color: #374151;
+      }
+
+      .grammar-item span {
+          font-weight: bold;
+          color: #111827;
+          margin-right: 0.5em;
+      }
+
+
+      .counters {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 1rem;
+          font-size: 1rem;
+          color: #444;
+      }
+
+      .counters span {
+          margin: 0 1em; /* Add horizontal spacing between counters */
+      }
+
+      .btn-row {
+          display: flex;
+          justify-content: space-around;
+          gap: 1rem;
+          margin-bottom: 1rem;
+      }
+
+      .btn-row button {
+          flex: 1;
+          padding: 0.8rem 1rem;
+          border: none;
+          border-radius: 8px;
+          font-size: 1.1rem;
+          font-weight: bold;
+          color: #fff;
+          cursor: pointer;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.07);
+          transition: background 0.2s;
+          white-space: nowrap; 
+      }
+      
+      .btn-row button:disabled {
+          background-color: #d1d5db;
+          cursor: not-allowed;
+          color: #6b7280;
+          transform: none;
+      }
+
+      .check-btn { background: #f59e42; }
+      .check-btn:hover:not(:disabled) { background: #ea580c; }
+      .check-btn.checked { background: #fb923c; border: 2px solid #f97316; }
+
+      .next-btn { background: #22c55e; }
+      .next-btn:hover:not(:disabled) { background: #16a34a; }
+      
+      .sub-btn-row {
+          display: flex;
+          justify-content: center;
+          gap: 1rem;
+          margin-bottom: 1rem;
+      }
+
+      .sub-btn {
+          padding: 0.5rem 1.2rem;
+          background: #e5e7eb;
+          color: #333;
+          border: none;
+          border-radius: 7px;
+          font-size: 1rem;
+          font-weight: 500;
+          cursor: pointer;
+          transition: background 0.2s;
+      }
+      .sub-btn:hover {
+          background: #d1d5db;
+      }
+      
+      #prevBtn {
+          background-color: #a3e635; /* 黄緑 */
+          color: #1f2937;
+      }
+      #prevBtn:hover:not(:disabled) {
+          background-color: #84cc16;
+      }
+      #suspendBtn {
+          background-color: #fde047; /* 黄色 */
+          color: #1f2937;
+      }
+      #suspendBtn:hover {
+          background-color: #facc15;
+      }
+      #resetBtn {
+          background-color: #fca5a5; /* 薄い赤 */
+          color: #1f2937;
+      }
+      #resetBtn:hover {
+          background-color: #f87171;
+      }
+      #reviewBtn {
+          background-color: #7dd3fc; /* 水色 */
+          color: #1f2937;
+      }
+      #reviewBtn:hover {
+          background-color: #38bdf8;
+      }
+
+      .speech-controls {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 0.5rem;
+          margin: 0.5rem auto;
+          width: 80%;
+          max-width: 300px;
+      }
+
+      .speech-controls label {
+          font-size: 0.9rem;
+          color: #4b5563;
+      }
+
+      .speech-controls input[type="range"] {
+          width: 100%;
+          cursor: pointer;
+      }
+
+      .speak-btn-container {
+          display: flex;
+          justify-content: center;
+      }
+
+      .back-link {
+          background: none;
+          border: none;
+          color: #3b82f6;
+          font-size: 1rem;
+          cursor: pointer;
+          text-decoration: underline;
+          margin-top: 1.5rem;
+      }
+      .back-link:hover {
+          color: #1d4ed8;
+      }
+
+      .flashcard-page {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+      .mt-8 {
+          margin-top: 2rem;
+      }
+      .text-center {
+          text-align: center;
+      }
+
+      #settingsBtn {
+          position: absolute;
+          top: 1rem;
+          right: 1rem;
+          background: none;
+          border: none;
+          font-size: 1.8rem;
+          cursor: pointer;
+          color: #6b7280;
+          transition: color 0.2s, transform 0.2s;
+      }
+      #settingsBtn:hover {
+          color: #1f2937;
+          transform: rotate(30deg);
+      }
+
+      /* Modal Styles */
+      .modal-overlay {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.5);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          z-index: 1000;
+          transition: opacity 0.3s ease;
+      }
+
+      .modal-content {
+          background: #fff;
+          padding: 1.5rem 2rem;
+          border-radius: 12px;
+          box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+          width: 90%;
+          max-width: 400px;
+          transform: translateY(-20px);
+          transition: transform 0.3s ease;
+      }
+
+      .modal-overlay:not([style*="display: none"]) .modal-content {
+        transform: translateY(0);
+      }
+
+      .modal-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border-bottom: 1px solid #e5e7eb;
+          padding-bottom: 0.8rem;
+          margin-bottom: 1rem;
+      }
+
+      .modal-header h2 {
+          margin: 0;
+          font-size: 1.4rem;
+          color: #333;
+      }
+
+      .close-button {
+          background: none;
+          border: none;
+          font-size: 2rem;
+          font-weight: bold;
+          color: #aaa;
+          cursor: pointer;
+          line-height: 1;
+      }
+      .close-button:hover {
+          color: #333;
+      }
+
+      #repoFileList, .modal-body {
+          max-height: 60vh;
+          overflow-y: auto;
+      }
+
+      .repo-file-list {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+      }
+
+      .repo-file-list li {
+          padding: 0.8rem 0.5rem;
+          border-bottom: 1px solid #f3f4f6;
+          cursor: pointer;
+          transition: background-color 0.2s;
+          font-size: 1.1rem;
+      }
+
+      .repo-file-list li:hover {
+          background-color: #f3f4f6;
+      }
+
+      .settings-form-group {
+          margin-bottom: 1rem;
+      }
+      .settings-form-group label {
+          display: block;
+          font-weight: 500;
+          margin-bottom: 0.3rem;
+          color: #374151;
+      }
+      .settings-form-group input {
+          width: 100%;
+          padding: 0.5rem;
+          border: 1px solid #d1d5db;
+          border-radius: 6px;
+          font-size: 1rem;
+          box-sizing: border-box;
+      }
+      .modal-footer {
+          display: flex;
+          justify-content: flex-end;
+          gap: 0.5rem;
+          margin-top: 1rem;
+      }
+
+      /* Password Modal */
+      #passwordModal .modal-content {
+          max-width: 320px;
+      }
+      #passwordInput {
+          width: 100%;
+          padding: 0.8rem;
+          font-size: 1.2rem;
+          text-align: center;
+          letter-spacing: 0.5em;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+          margin-bottom: 1rem;
+          box-sizing: border-box;
+      }
+      #passwordError {
+          color: #ef4444;
+          height: 1.2em;
+          margin-bottom: 0.5rem;
+          font-size: 0.9em;
+          text-align: center;
+      }
+      #passwordSubmitBtn {
+          width: 100%;
+          max-width: none;
+      }
+
+    </style>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="app"></div>
+
+    <div id="repoModal" class="modal-overlay" style="display: none;">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>GitHubからリストを選択</h2>
+          <button id="closeRepoModalBtn" class="close-button">&times;</button>
+        </div>
+        <div id="repoFileList">
+          <p>読み込み中...</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="passwordModal" class="modal-overlay" style="display: none;">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>パスワード入力</h2>
+          <button id="closePasswordModalBtn" class="close-button">&times;</button>
+        </div>
+        <p style="text-align: center; margin-top: 0; margin-bottom: 1rem;">設定用のパスワード(4桁)</p>
+        <input type="password" id="passwordInput" maxlength="4" inputmode="numeric" pattern="\d*">
+        <div id="passwordError"></div>
+        <button id="passwordSubmitBtn" class="add-btn">確認</button>
+      </div>
+    </div>
+    
+    <div id="settingsModal" class="modal-overlay" style="display: none;">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>TSV列設定</h2>
+          <button class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+            <p>TSVファイルの各データが何列目にあるかを指定してください。(0で無効)</p>
+            <form id="settingsForm">
+                <div class="settings-form-group">
+                    <label for="colEnglish">英語 (カード表)</label>
+                    <input type="number" id="colEnglish" data-key="english" min="1">
+                </div>
+                <div class="settings-form-group">
+                    <label for="colJapanese">日本語 (カード裏)</label>
+                    <input type="number" id="colJapanese" data-key="japanese" min="1">
+                </div>
+                <hr style="margin: 1.5rem 0; border: none; border-top: 1px solid #e5e7eb;">
+                <div class="settings-form-group">
+                    <label for="colNo">番号 (No)</label>
+                    <input type="number" id="colNo" data-key="no" min="0">
+                </div>
+                <div class="settings-form-group">
+                    <label for="colUnit">ユニット (Unit)</label>
+                    <input type="number" id="colUnit" data-key="unit" min="0">
+                </div>
+                <div class="settings-form-group">
+                    <label for="colLabel">ラベル (label)</label>
+                    <input type="number" id="colLabel" data-key="label" min="0">
+                </div>
+                <div class="settings-form-group">
+                    <label for="colGram1">文法1 (gram1)</label>
+                    <input type="number" id="colGram1" data-key="gram1" min="0">
+                </div>
+                <div class="settings-form-group">
+                    <label for="colGram2">文法2 (gram2)</label>
+                    <input type="number" id="colGram2" data-key="gram2" min="0">
+                </div>
+                <div class="settings-form-group">
+                    <label for="colGram3">文法3 (gram3)</label>
+                    <input type="number" id="colGram3" data-key="gram3" min="0">
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+           <button id="saveSettingsBtn" class="mode-btn learn">保存</button>
+           <button id="resetSettingsBtn" class="sub-btn">リセット</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let dynamicLists = [];
+      let currentList = null;
+      let currentMode = "learn";
+      let progressData = {}; 
+      let columnSettings = {};
+      let speechRate = 1.0;
+      const app = document.getElementById("app");
+
+      const LISTS_KEY = 'flashcard_lists';
+      const PROGRESS_KEY = 'flashcard_progress';
+      const SETTINGS_KEY = 'flashcard_settings';
+      const SPEECH_RATE_KEY = 'flashcard_speech_rate';
+      const defaultColumnSettings = { english: 4, japanese: 5, no: 1, unit: 2, label: 3, gram1: 6, gram2: 7, gram3: 8 };
+
+      function saveState() {
+          try {
+              localStorage.setItem(LISTS_KEY, JSON.stringify(dynamicLists));
+              localStorage.setItem(PROGRESS_KEY, JSON.stringify(progressData));
+              localStorage.setItem(SETTINGS_KEY, JSON.stringify(columnSettings));
+          } catch (e) {
+              console.error("Failed to save state:", e);
+              alert("データの保存に失敗しました。");
+          }
+      }
+
+      function loadState() {
+          try {
+              const savedLists = localStorage.getItem(LISTS_KEY);
+              const savedProgress = localStorage.getItem(PROGRESS_KEY);
+              const savedSettings = localStorage.getItem(SETTINGS_KEY);
+              const savedRate = localStorage.getItem(SPEECH_RATE_KEY);
+
+              if (savedLists) {
+                  dynamicLists = JSON.parse(savedLists);
+              }
+              if (savedProgress) {
+                  progressData = JSON.parse(savedProgress);
+              }
+              if (savedSettings) {
+                  columnSettings = JSON.parse(savedSettings);
+              } else {
+                  columnSettings = { ...defaultColumnSettings };
+              }
+              if (savedRate !== null) {
+                  speechRate = parseFloat(savedRate);
+              }
+
+              // Ensure all keys from default are present
+              columnSettings = { ...defaultColumnSettings, ...columnSettings };
+
+          } catch (e) {
+              console.error("Failed to load state:", e);
+              localStorage.removeItem(LISTS_KEY);
+              localStorage.removeItem(PROGRESS_KEY);
+              localStorage.removeItem(SETTINGS_KEY);
+              localStorage.removeItem(SPEECH_RATE_KEY);
+          }
+      }
+
+      function showHomePage() {
+        app.innerHTML = `
+          <div class="container">
+            <button id="settingsBtn" title="設定">⚙️</button>
+            <h1 class="title">カスタム表裏カード_v0</h1>
+            <div id="lists"></div>
+            <div class="mt-8 text-center">
+              <button id="selectFromRepoBtn" class="add-btn" style="margin-bottom: 1rem;">リスト選択</button>
+              <input type="file" id="fileInput" accept=".tsv,text/tab-separated-values" style="display:none;">
+              <button id="addListBtn" class="add-btn-secondary">リスト追加</button>
+            </div>
+          </div>
+        `;
+        
+        const listsDiv = document.getElementById("lists");
+
+        if (dynamicLists.length === 0) {
+            listsDiv.innerHTML = '<p style="text-align: center; color: #6b7280;">リストを追加してください。</p>';
+        } else {
+            const listsHtml = dynamicLists.map(list => {
+                const listId = list.id;
+                const progress = progressData[listId];
+                let progressHtml = '';
+                let modeIndicator = '';
+
+                if (progress && progress.words && progress.visitedIndices) { // New progress format
+                    const total = progress.words.length;
+                    const visitedCount = progress.visitedIndices.length;
+                    const checkedCount = progress.checkedItems.length;
+                    const remainingCount = total - visitedCount;
+                    const perfectCount = visitedCount - checkedCount;
+                    progressHtml = `<div class="progress-info">のこり${remainingCount}枚 / カンペキ${perfectCount}枚 / check！${checkedCount}枚</div>`;
+                    
+                    const modeText = progress.mode === 'learn' ? '覚える' : 'テスト';
+                    modeIndicator = ` <span style="font-weight: normal; font-size: 0.9rem; color: #4b5563;">（${modeText}）</span>`;
+                }
+                
+                const displayName = `${list.name}${modeIndicator}`;
+
+                return `
+                <div class="list-card">
+                  <div class="list-header">
+                    <h2 class="list-title" title="${list.name}">${displayName}</h2>
+                    <div class="list-header-buttons">
+                        <button class="header-btn delete-btn" data-id="${listId}" title="削除">🗑️ (削除)</button>
+                    </div>
+                  </div>
+                  ${progressHtml}
+                  <div class="list-btns">
+                    <button class="mode-btn learn" data-id="${listId}" data-mode="learn">覚えるモード</button>
+                    <button class="mode-btn test" data-id="${listId}" data-mode="test">確認テスト</button>
+                  </div>
+                </div>
+              `;
+            }).join("");
+            listsDiv.innerHTML = listsHtml;
+        }
+
+        document.querySelectorAll(".mode-btn").forEach((btn) => {
+          btn.onclick = () => {
+            const listId = parseInt(btn.dataset.id, 10);
+            currentList = dynamicLists.find(l => l.id === listId);
+            currentMode = btn.dataset.mode;
+            const progress = progressData[listId];
+            if (progress && progress.words && progress.visitedIndices && progress.mode === currentMode) {
+              if (confirm("中断したセッションを再開しますか？\n（「キャンセル」で最初から始めます）")) {
+                showFlashcardPage(progress);
+                return;
+              } else {
+                delete progressData[listId];
+                saveState();
+              }
+            }
+            showFlashcardPage();
+          };
+        });
+        
+        document.querySelectorAll(".delete-btn").forEach((btn) => {
+            btn.onclick = (e) => {
+                e.stopPropagation();
+                const listId = parseInt(btn.dataset.id, 10);
+                const listToDelete = dynamicLists.find(list => list.id === listId);
+                if (listToDelete && confirm(`「${listToDelete.name}」を削除しますか？\n保存されている進捗も失われます。`)) {
+                    dynamicLists = dynamicLists.filter(list => list.id !== listId);
+                    delete progressData[listId];
+                    saveState();
+                    showHomePage();
+                }
+            };
+        });
+        
+        document.getElementById("settingsBtn").onclick = openPasswordModal;
+        document.getElementById("selectFromRepoBtn").onclick = openRepoModal;
+        document.getElementById("addListBtn").onclick = () => document.getElementById("fileInput").click();
+        document.getElementById("fileInput").onchange = async (e) => {
+          const target = e.target;
+          const file = target.files?.[0];
+          if (!file) return;
+          const text = await file.text();
+          const words = parseTsv(text);
+          if (words.length > 0) {
+            dynamicLists.push({ id: Date.now(), name: file.name, words });
+            saveState();
+            showHomePage();
+          } else {
+            alert("ファイルが空か、形式が正しくありません。TSV形式で、最低2列のデータが必要です。");
+          }
+          target.value = "";
+        };
+      }
+
+      function parseTsv(text) {
+        return text.trim().split(/\r?\n/).map((line) => {
+            const columns = line.split("\t");
+            const requiredColsExist = columnSettings.english > 0 && 
+                                      columnSettings.japanese > 0 &&
+                                      columns.length >= Math.max(columnSettings.english, columnSettings.japanese) &&
+                                      columns[columnSettings.english - 1] &&
+                                      columns[columnSettings.japanese - 1];
+            
+            return requiredColsExist ? { columns: columns.map(c => c.trim()) } : null;
+        }).filter(word => word !== null);
+      }
+      
+      function openRepoModal() {
+        const modal = document.getElementById('repoModal');
+        const fileListDiv = document.getElementById('repoFileList');
+        modal.style.display = 'flex';
+        document.getElementById('closeRepoModalBtn').onclick = closeRepoModal;
+        modal.onclick = (e) => {
+          if (e.target === modal) {
+            closeRepoModal();
+          }
+        };
+
+        fileListDiv.innerHTML = '<p>読み込み中...</p>';
+
+        fetch('./manifest.json')
+          .then(response => {
+            if (!response.ok) {
+              throw new Error('manifest.jsonが見つかりません。');
+            }
+            return response.json();
+          })
+          .then(data => {
+            if (!data.files || data.files.length === 0) {
+              fileListDiv.innerHTML = '<p>利用可能なファイルがありません。</p>';
+              return;
+            }
+            const ul = document.createElement('ul');
+            ul.className = 'repo-file-list';
+            data.files.forEach(filename => {
+              const li = document.createElement('li');
+              li.textContent = filename;
+              li.onclick = () => loadFileFromRepo(filename);
+              ul.appendChild(li);
+            });
+            fileListDiv.innerHTML = '';
+            fileListDiv.appendChild(ul);
+          })
+          .catch(error => {
+            console.error('Error loading manifest:', error);
+            fileListDiv.innerHTML = `<p style="color: red;">エラー: ${error.message}</p><p style="font-size: 0.8em;">リポジトリのルートにdata/manifest.jsonを設置してください。</p>`;
+          });
+      }
+
+      function closeRepoModal() {
+        const modal = document.getElementById('repoModal');
+        modal.style.display = 'none';
+      }
+
+      async function loadFileFromRepo(filename) {
+        try {
+          const response = await fetch(`./data/${filename}`);
+          if (!response.ok) {
+            throw new Error(`ファイル'${filename}'を読み込めませんでした。`);
+          }
+          const text = await response.text();
+          const words = parseTsv(text);
+          if (words.length > 0) {
+            dynamicLists.push({ id: Date.now(), name: filename, words });
+            saveState();
+            closeRepoModal();
+            showHomePage();
+          } else {
+            alert("ファイルが空か、形式が正しくありません。");
+          }
+        } catch (error) {
+          console.error('Error loading file from repo:', error);
+          alert(`エラー: ${error.message}`);
+        }
+      }
+      
+      function openPasswordModal() {
+        const modal = document.getElementById('passwordModal');
+        const input = document.getElementById('passwordInput');
+        const errorDiv = document.getElementById('passwordError');
+        
+        input.value = '';
+        errorDiv.textContent = '';
+        modal.style.display = 'flex';
+        input.focus();
+
+        document.getElementById('closePasswordModalBtn').onclick = closePasswordModal;
+        document.getElementById('passwordSubmitBtn').onclick = checkPassword;
+        modal.onclick = (e) => {
+            if (e.target === modal) closePasswordModal();
+        };
+        input.onkeyup = (e) => {
+            if (e.key === 'Enter') checkPassword();
+        }
+      }
+
+      function closePasswordModal() {
+          document.getElementById('passwordModal').style.display = 'none';
+      }
+
+      function checkPassword() {
+          const input = document.getElementById('passwordInput');
+          const errorDiv = document.getElementById('passwordError');
+          const HARDCODED_PASSWORD = "1234";
+
+          if (input.value === HARDCODED_PASSWORD) {
+              closePasswordModal();
+              openSettingsModal();
+          } else {
+              errorDiv.textContent = 'パスワードが違います。';
+              input.value = '';
+              input.focus();
+          }
+      }
+      
+      function openSettingsModal() {
+          const modal = document.getElementById('settingsModal');
+          if (!modal) return;
+          modal.style.display = 'flex';
+          
+          const form = document.getElementById('settingsForm');
+          form.querySelectorAll('input[type="number"]').forEach(input => {
+              const key = input.dataset.key;
+              if (key in columnSettings) {
+                  input.value = columnSettings[key];
+              }
+          });
+
+          modal.querySelector('.close-button').onclick = () => modal.style.display = 'none';
+          document.getElementById('saveSettingsBtn').onclick = saveSettings;
+          document.getElementById('resetSettingsBtn').onclick = () => {
+              if (confirm('設定を初期値に戻しますか？')) {
+                  columnSettings = { ...defaultColumnSettings };
+                  saveState();
+                  openSettingsModal(); // Re-render modal with default values
+              }
+          };
+          modal.onclick = (e) => {
+              if (e.target === modal) modal.style.display = 'none';
+          };
+      }
+
+      function saveSettings() {
+          const newSettings = {};
+          const form = document.getElementById('settingsForm');
+          form.querySelectorAll('input[type="number"]').forEach(input => {
+              const key = input.dataset.key;
+              newSettings[key] = parseInt(input.value, 10) || 0;
+          });
+
+          if (newSettings.english < 1 || newSettings.japanese < 1) {
+              alert('英語 (カード表) と 日本語 (カード裏) の列は1以上の正の整数で指定してください。');
+              return;
+          }
+          if (newSettings.english === newSettings.japanese) {
+              alert('英語 (カード表) と 日本語 (カード裏) には異なる列を指定してください。');
+              return;
+          }
+
+          columnSettings = newSettings;
+          saveState();
+          document.getElementById('settingsModal').style.display = 'none';
+          alert('設定を保存しました。');
+      }
+
+      function getCardNumberString(word) {
+        if (!word) return '';
+        const mapping = columnSettings;
+        const parts = [];
+        const no = mapping.no > 0 ? word.columns[mapping.no - 1] : null;
+        const unit = mapping.unit > 0 ? word.columns[mapping.unit - 1] : null;
+        const label = mapping.label > 0 ? word.columns[mapping.label - 1] : null;
+
+        if (no) parts.push(`No:${no}`);
+        if (unit) parts.push(`Unit:${unit}`);
+        if (label) parts.push(label);
+
+        return parts.join(' / ');
+      }
+
+      function showFlashcardPage(resumeState = null) {
+        if (!currentList) {
+          showHomePage();
+          return;
+        }
+
+        let words, idx, visitedIndices, checkedItems;
+        
+        // Handle breaking change in session data format
+        if (resumeState && resumeState.remaining) {
+            resumeState = null;
+            delete progressData[currentList.id];
+            saveState();
+            alert("学習データの形式が更新されたため、セッションをリセットします。");
+        }
+
+        if (resumeState && resumeState.words) { // New format
+            words = resumeState.words;
+            idx = resumeState.idx;
+            visitedIndices = new Set(resumeState.visitedIndices);
+            checkedItems = new Set(resumeState.checkedItems);
+        } else {
+            words = currentMode === 'learn' 
+                ? [...currentList.words] 
+                : shuffle([...currentList.words]);
+            idx = 0;
+            visitedIndices = new Set([0]); // Mark the first page as visited
+            checkedItems = new Set();
+        }
+
+        let isFlipped = false;
+
+        function suspendSession() {
+          if (idx >= words.length) { 
+            delete progressData[currentList.id];
+          } else {
+            progressData[currentList.id] = {
+              words: words,
+              idx: idx,
+              visitedIndices: Array.from(visitedIndices),
+              checkedItems: Array.from(checkedItems),
+              mode: currentMode,
+            };
+          }
+          saveState();
+          showHomePage();
+        }
+        
+        function resetCurrentList() {
+            delete progressData[currentList.id];
+            saveState();
+            showFlashcardPage();
+        }
+        
+        function startReview() {
+          if (checkedItems.size === 0) {
+            alert("「check！」した項目はありません。");
+            return;
+          }
+          const checkedWords = Array.from(checkedItems).map(i => words[i]);
+          words = shuffle(checkedWords);
+          idx = 0;
+          visitedIndices = new Set([0]);
+          checkedItems = new Set();
+          isFlipped = false;
+          render();
+        }
+
+        function render() {
+          const checkedCount = checkedItems.size;
+          const perfectCount = idx - checkedCount;
+          const visitedCount = visitedIndices.size;
+          const remainingCount = words.length - visitedCount;
+
+          if (idx >= words.length) {
+            delete progressData[currentList.id]; 
+            saveState();
+            app.innerHTML = `
+              <div class="container flashcard-page">
+                <h1 class="title">${currentList?.name}</h1>
+                <div class="card-container">
+                  <div class="card done-card">
+                    <div class="card-face card-front">🎉 完了！</div>
+                  </div>
+                </div>
+                <div class="counters">
+                  <span>のこり: 0</span>
+                  <span>カンペキ: ${perfectCount}</span>
+                  <span>check！: ${checkedCount}</span>
+                </div>
+                <div class="sub-btn-row">
+                  <button id="resetBtn" class="sub-btn">リセット</button>
+                  <button id="reviewBtn" class="sub-btn">「check！」した項目を復習</button>
+                </div>
+                <div class="mt-8">
+                  <button id="backBtn" class="back-link">« リスト選択にもどる</button>
+                </div>
+              </div>
+            `;
+            document.getElementById("resetBtn").onclick = resetCurrentList;
+            document.getElementById("reviewBtn").onclick = startReview;
+            document.getElementById("backBtn").onclick = showHomePage;
+            return;
+          }
+
+          const word = words[idx];
+          const isChecked = checkedItems.has(idx);
+          const mapping = columnSettings;
+          const frontText = word.columns[mapping.english - 1] || '(データなし)';
+          const backText = word.columns[mapping.japanese - 1] || '(データなし)';
+          const cardNumberText = getCardNumberString(word);
+          
+          const gram1 = mapping.gram1 > 0 ? word.columns[mapping.gram1 - 1] : null;
+          const gram2 = mapping.gram2 > 0 ? word.columns[mapping.gram2 - 1] : null;
+          const gram3 = mapping.gram3 > 0 ? word.columns[mapping.gram3 - 1] : null;
+          let grammarHtml = '';
+          if (isFlipped && (gram1 || gram2 || gram3)) {
+              grammarHtml = `<div class="grammar-box">`;
+              if (gram1) grammarHtml += `<div class="grammar-item"><span>文法1:</span> ${gram1}</div>`;
+              if (gram2) grammarHtml += `<div class="grammar-item"><span>文法2:</span> ${gram2}</div>`;
+              if (gram3) grammarHtml += `<div class="grammar-item"><span>文法3:</span> ${gram3}</div>`;
+              grammarHtml += `</div>`;
+          }
+
+
+          app.innerHTML = `
+            <div class="container flashcard-page">
+              <h1 class="title">${currentList?.name}</h1>
+              <div class="card-number" title="${cardNumberText}">${cardNumberText}</div>
+              <div class="card-container" id="cardContainer">
+                <div class="card${isFlipped ? " is-flipped" : ""}">
+                  <div class="card-face card-front">${frontText}</div>
+                  <div class="card-face card-back">${backText}</div>
+                </div>
+              </div>
+
+              <div class="speech-controls">
+                <label for="speechRateSlider">読み上げ速度: <span id="speechRateValue">${speechRate.toFixed(1)}</span></label>
+                <input type="range" id="speechRateSlider" min="0.5" max="2" step="0.1" value="${speechRate}">
+              </div>
+
+              <div class="speak-btn-container">
+                <button id="speakBtn" class="sub-btn">🔊 発音を聞く</button>
+              </div>
+              ${grammarHtml}
+              <div class="counters">
+                <span>のこり: ${remainingCount}</span>
+                <span>カンペキ: ${perfectCount}</span>
+                <span>check！: ${checkedCount}</span>
+              </div>
+              <div class="btn-row">
+                <button id="prevBtn" class="sub-btn" ${idx === 0 ? 'disabled' : ''}>⏪ 前ページ</button>
+                <button id="checkBtn" class="check-btn ${isChecked ? 'checked' : ''}">${isChecked ? '✅ check済' : '🔖 check！'}</button>
+                <button id="nextBtn" class="mode-btn learn">次ページ ⏩</button>
+              </div>
+              <div class="sub-btn-row">
+                <button id="suspendBtn" class="sub-btn">中断</button>
+                <button id="resetBtn" class="sub-btn">リセット</button>
+                <button id="reviewBtn" class="sub-btn">「check」を復習</button>
+              </div>
+              <div class="mt-8">
+                <button id="backBtn" class="back-link">« リスト選択にもどる (保存されません)</button>
+              </div>
+            </div>
+          `;
+
+          // Dynamic height adjustment for the card
+          const cardEl = document.querySelector('.card');
+          if (cardEl) {
+              const frontFace = cardEl.querySelector('.card-front');
+              const backFace = cardEl.querySelector('.card-back');
+              
+              const adjustHeight = () => {
+                  const frontHeight = frontFace.scrollHeight;
+                  const backHeight = backFace.scrollHeight;
+                  const targetHeight = isFlipped ? backHeight : frontHeight;
+                  const minHeight = 250; // Corresponds to container's min-height
+                  cardEl.style.height = `${Math.max(targetHeight, minHeight)}px`;
+              };
+              requestAnimationFrame(adjustHeight);
+          }
+
+          const speechRateSlider = document.getElementById("speechRateSlider");
+          const speechRateValue = document.getElementById("speechRateValue");
+          if (speechRateSlider) {
+              speechRateSlider.oninput = () => {
+                  const newRate = parseFloat(speechRateSlider.value);
+                  speechRate = newRate;
+                  if (speechRateValue) speechRateValue.textContent = newRate.toFixed(1);
+                  try {
+                      localStorage.setItem(SPEECH_RATE_KEY, newRate.toString());
+                  } catch (e) {
+                      console.error("Failed to save speech rate:", e);
+                  }
+              };
+          }
+
+          document.getElementById("cardContainer").onclick = () => {
+            isFlipped = !isFlipped;
+            render();
+          };
+
+          const speakBtn = document.getElementById("speakBtn");
+          if ('speechSynthesis' in window) {
+              speakBtn.onclick = (e) => {
+                  e.stopPropagation();
+                  const textToSpeak = frontText; // Always speak the English text
+                  window.speechSynthesis.cancel();
+                  const utterance = new SpeechSynthesisUtterance(textToSpeak);
+                  utterance.lang = 'en-US'; // Always use English voice
+                  utterance.rate = speechRate;
+                  window.speechSynthesis.speak(utterance);
+              };
+          } else {
+              if(speakBtn) speakBtn.style.display = 'none';
+          }
+
+          document.getElementById("prevBtn").onclick = () => {
+            if (idx > 0) {
+              idx--;
+              isFlipped = false;
+              render();
+            }
+          };
+
+          const advancePage = () => {
+            if (idx < words.length) {
+              idx++;
+              if (idx < words.length) {
+                  visitedIndices.add(idx);
+              }
+              isFlipped = false;
+              render();
+            }
+          };
+
+          document.getElementById("nextBtn").onclick = () => {
+              if (idx < words.length) {
+                if (checkedItems.has(idx)) {
+                    // if it was checked, then "next" is clicked, uncheck it
+                    checkedItems.delete(idx);
+                }
+              }
+              advancePage();
+          };
+
+          document.getElementById("checkBtn").onclick = () => {
+              if (checkedItems.has(idx)) {
+                  checkedItems.delete(idx);
+              } else {
+                  checkedItems.add(idx);
+              }
+              advancePage();
+          };
+          
+          document.getElementById("suspendBtn").onclick = suspendSession;
+          document.getElementById("resetBtn").onclick = resetCurrentList;
+          document.getElementById("reviewBtn").onclick = startReview;
+          document.getElementById("backBtn").onclick = showHomePage;
+        }
+
+        render();
+      }
+
+      function shuffle(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+      }
+
+      function initializeApp() {
+          loadState();
+          showHomePage();
+      }
+
+      initializeApp();
+    </script>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
