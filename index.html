@@ -31,6 +31,14 @@
           margin-bottom: 1.5rem;
       }
 
+      .flashcard-page .title {
+          font-size: 1rem;
+          font-weight: 600;
+          text-align: left;
+          margin-bottom: 0.5rem;
+          width: 100%;
+      }
+
       .list-card {
           background: #f9fafb;
           border-radius: 12px;
@@ -162,11 +170,11 @@
       }
       
       .card-number {
-          text-align: left;
+          text-align: center;
           font-size: 1rem;
           color: #6b7280;
           margin-bottom: 0.5rem;
-          padding-left: 0.5rem;
+          padding-left: 0;
           height: 1.2rem; /* Ensure layout doesn't shift if number is empty */
           white-space: nowrap;
           overflow: hidden;
@@ -198,12 +206,12 @@
           width: 100%;
           backface-visibility: hidden;
           display: flex;
-          justify-content: center;
-          align-items: center;
+          justify-content: flex-start;
+          align-items: flex-start;
           border-radius: 15px;
           box-shadow: 0 4px 8px rgba(0,0,0,0.1);
           padding: 1.5rem;
-          text-align: center;
+          text-align: left;
           word-break: break-word;
           box-sizing: border-box; /* This ensures padding is inside the element's width/height */
       }
@@ -226,6 +234,10 @@
       .done-card .card-front {
           font-size: 2rem;
           color: #15803d; /* 完了テキストを緑色に */
+          /* Re-center done text */
+          justify-content: center;
+          align-items: center;
+          text-align: center;
       }
       
       .grammar-box {
@@ -239,6 +251,12 @@
           border-radius: 8px;
           background: #f9fafb;
           text-align: left;
+      }
+
+      .grammar-placeholder {
+          height: 90px; /* 文法ボックスのおおよその高さ */
+          margin-top: 1rem;
+          margin-bottom: 1rem;
       }
 
       .grammar-item {
@@ -291,6 +309,10 @@
           cursor: not-allowed;
           color: #6b7280;
           transform: none;
+      }
+
+      #checkBtn, #nextBtn {
+          color: black;
       }
 
       .check-btn { background: #f59e42; }
@@ -718,10 +740,10 @@
 
                 if (progress && progress.words && progress.visitedIndices) { // New progress format
                     const total = progress.words.length;
-                    const visitedCount = progress.visitedIndices.length;
+                    const idx = progress.idx;
                     const checkedCount = progress.checkedItems.length;
-                    const remainingCount = total - visitedCount;
-                    const perfectCount = visitedCount - checkedCount;
+                    const remainingCount = total - idx;
+                    const perfectCount = idx - checkedCount;
                     progressHtml = `<div class="progress-info">のこり${remainingCount}枚 / カンペキ${perfectCount}枚 / check！${checkedCount}枚</div>`;
                     
                     const modeText = progress.mode === 'learn' ? '覚える' : 'テスト';
@@ -853,7 +875,7 @@
           })
           .catch(error => {
             console.error('Error loading manifest:', error);
-            fileListDiv.innerHTML = `<p style="color: red;">エラー: ${error.message}</p><p style="font-size: 0.8em;">リポジトリのルートにdata/manifest.jsonを設置してください。</p>`;
+            fileListDiv.innerHTML = `<p style="color: red;">エラー: ${error.message}</p><p style="font-size: 0.8em;">リポジトリのルートに/manifest.jsonを設置してください。</p>`;
           });
       }
 
@@ -1047,8 +1069,21 @@
             alert("「check！」した項目はありません。");
             return;
           }
-          const checkedWords = Array.from(checkedItems).map(i => words[i]);
-          words = shuffle(checkedWords);
+          
+          let checkedWords = Array.from(checkedItems).map(i => words[i]);
+
+          if (currentMode === 'learn') {
+              // Sort checked words based on their original order in the list
+              checkedWords.sort((a, b) => {
+                  const indexA = currentList.words.indexOf(a);
+                  const indexB = currentList.words.indexOf(b);
+                  return indexA - indexB;
+              });
+              words = checkedWords;
+          } else { // 'test' mode
+              words = shuffle(checkedWords);
+          }
+          
           idx = 0;
           visitedIndices = new Set([0]);
           checkedItems = new Set();
@@ -1059,8 +1094,7 @@
         function render() {
           const checkedCount = checkedItems.size;
           const perfectCount = idx - checkedCount;
-          const visitedCount = visitedIndices.size;
-          const remainingCount = words.length - visitedCount;
+          const remainingCount = words.length - idx;
 
           if (idx >= words.length) {
             delete progressData[currentList.id]; 
@@ -1103,13 +1137,19 @@
           const gram1 = mapping.gram1 > 0 ? word.columns[mapping.gram1 - 1] : null;
           const gram2 = mapping.gram2 > 0 ? word.columns[mapping.gram2 - 1] : null;
           const gram3 = mapping.gram3 > 0 ? word.columns[mapping.gram3 - 1] : null;
+          const hasGrammar = gram1 || gram2 || gram3;
           let grammarHtml = '';
-          if (isFlipped && (gram1 || gram2 || gram3)) {
+
+          if (hasGrammar) {
+            if (isFlipped) {
               grammarHtml = `<div class="grammar-box">`;
               if (gram1) grammarHtml += `<div class="grammar-item"><span>文法1:</span> ${gram1}</div>`;
               if (gram2) grammarHtml += `<div class="grammar-item"><span>文法2:</span> ${gram2}</div>`;
               if (gram3) grammarHtml += `<div class="grammar-item"><span>文法3:</span> ${gram3}</div>`;
               grammarHtml += `</div>`;
+            } else {
+              grammarHtml = `<div class="grammar-placeholder"></div>`;
+            }
           }
 
 
@@ -1126,7 +1166,7 @@
 
               <div class="speech-controls">
                 <label for="speechRateSlider">読み上げ速度: <span id="speechRateValue">${speechRate.toFixed(1)}</span></label>
-                <input type="range" id="speechRateSlider" min="0.5" max="2" step="0.1" value="${speechRate}">
+                <input type="range" id="speechRateSlider" min="0.3" max="2" step="0.1" value="${speechRate}">
               </div>
 
               <div class="speak-btn-container">
