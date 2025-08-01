@@ -1,11 +1,18 @@
 {
   "files": [
-    "txbook-data/ei3_tb_1sentence.tsv",
-    "txbook-data/ei3_tb_2sentence.tsv",
-    "txbook-data/ei3_tb_3sentence.tsv",
-    "txbook-data/ei3_tb_3Asentence.tsv",
-    "txbook-data/ei3_tb_4sentence.tsv",
-    "txbook-data/ei3_tb_4Asentence.tsv",
-    "txbook-data/ei3_tb_1-4sentence.tsv"
+    "txbook3-data/ei3_tb_1sentence.tsv",
+    "txbook3-data/ei3_tb_2sentence.tsv",
+    "txbook3-data/ei3_tb_3sentence.tsv",
+    "txbook3-data/ei3_tb_3Asentence.tsv",
+    "txbook3-data/ei3_tb_4sentence.tsv",
+    "txbook3-data/ei3_tb_4Asentence.tsv",
+    "txbook3-data/ei3_tb_1-4sentence.tsv",
+    "txbook2-data/ei2_tb_1sentence.tsv",
+    "txbook2-data/ei2_tb_2sentence.tsv",
+    "txbook2-data/ei2_tb_3sentence.tsv",
+    "txbook2-data/ei2_tb_3Asentence.tsv",
+    "txbook2-data/ei2_tb_4sentence.tsv",
+    "txbook2-data/ei2_tb_4Asentence.tsv",
+    "txbook2-data/ei2_tb_1-4sentence.tsv"
   ]
 }
