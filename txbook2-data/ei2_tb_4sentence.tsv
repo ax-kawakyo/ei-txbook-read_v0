@@ -1,0 +1,76 @@
+No	Unit	label	English	Japanese	grammer1	grammer2	grammer3
+4-1	4-H	4-H-1	What do you know about Singapore?	あなたはシンガポールについて何を知っていますか？	疑問詞(What)	doの疑問文	
+4-2	4-H	4-H-2	Where will Kota go in Singapore?	コウタはシンガポールでどこへ行くのでしょうか？	疑問詞(Where)	will	
+4-3	4-1	4-1-1	At a cafe:	カフェにて：	(場面)		
+4-4	4-1	4-1-2	Let's make a sightseeing plan!	観光プランを立てましょう！	Let's do		
+4-5	4-1	4-1-3	"OK, what do you want to do first?"	いいよ、最初に何をしたい？	疑問詞(What)	want to do	
+4-6	4-1	4-1-4	I want to see the Merlion.	僕はマーライオンが見たいな。	want to do		
+4-7	4-1	4-1-5	"Sure, but which one?"	もちろん、でもどれだい？	疑問詞(which)		
+4-8	4-1	4-1-6	There are several Merlions.	マーライオンはいくつかあるんだよ。	There are ~		
+4-9	4-1	4-1-7	Really?	本当に？	(応答)		
+4-10	4-1	4-1-8	"The big one by the bay, I guess."	湾のそばの大きいのかな、たぶん。	by ~ (場所)		
+4-11	4-1	4-1-9	Sure. Let's start from the Marina area.	もちろん。マリーナエリアから始めよう。	Let's do	start from ~	
+4-12	4-1	4-1-10	There is a big one there.	そこに大きいのがあるよ。	There is ~		
+4-13	4-1	4-1-11	Is there a big garden near there?	その近くに大きな庭園はある？	There is ~ (疑問文)		
+4-14	4-1	4-1-12	"Yeah, Gardens by the Bay."	うん、ガーデンズ・バイ・ザ・ベイだよ。	(応答)		
+4-15	4-1	4-1-13	"I want to go there, too."	僕もそこへ行きたいな。	want to do		
+4-16	4-1	4-1-14	I saw it on TV. It's so cool.	テレビで見たんだ。すごくかっこいいよね。	on TV		
+4-17	4-1	4-1-15	"After that, I'd like to see the traditional part of the city."	その後、私は街の伝統的な部分を見てみたいな。	I'd like to do		
+4-18	4-1	4-1-16	We can check out Arab Street later.	後でアラブストリートをチェックできるよ。	can	check out ~	
+4-19	4-2	4-2-1	At the Gardens by the Bay:	ガーデンズ・バイ・ザ・ベイにて：	(場面)		
+4-20	4-2	4-2-2	This is amazing!	これはすごいわ！	(感嘆)		
+4-21	4-2	4-2-3	Yeah. It's like a science fiction movie!	うん。SF映画みたいだね！	like (前置詞)		
+4-22	4-2	4-2-4	"Tina, show me your guidebook, please."	ティナ、君のガイドブックを見せて、お願い。	show A B	please	
+4-23	4-2	4-2-5	Here you are.	はい、どうぞ。	(口語表現)		
+4-24	4-2	4-2-6	It says the gardens produce their own energy.	それによると、この庭園は自分自身のエネルギーを生産しているって。	say (?と書いてある)		
+4-25	4-2	4-2-7	The Supertrees collect solar energy.	スーパーツリーが太陽エネルギーを集めているんだ。			
+4-26	4-2	4-2-8	That's good for the environment.	それは環境に良いことね。	be good for ~		
+4-27	4-2	4-2-9	Look! There's a walkway.	見て！遊歩道があるよ。	There is ~		
+4-28	4-2	4-2-10	Can we go up there?	あそこを上れるかな？	can	go up	
+4-29	4-2	4-2-11	Sure. I'll show you the way.	もちろん。道を案内するよ。	will (I'll)	show A B	
+4-30	4-2	4-2-12	Every part of the city has wheelchair access.	街のすべての部分に車椅子のアクセスがあるんだ。	Every ~		
+4-31	4-2	4-2-13	"Wow, that's great."	うわあ、それはすごいね。	(感嘆)		
+4-32	4-3	4-3-1	On Arab Street:	アラブストリートにて：	(場面)		
+4-33	4-3	4-3-2	"This is Arab Street, Kampong Gelam."	ここはアラブストリート、カンポングラムだよ。			
+4-34	4-3	4-3-3	Is that a mosque?	あれはモスク？	be動詞の疑問文		
+4-35	4-3	4-3-4	"Yes, Sultan Mosque."	うん、サルタン・モスクさ。	(応答)		
+4-36	4-3	4-3-5	Do you want to look inside?	中を見てみたい？	want to do		
+4-37	4-3	4-3-6	Yes! It's beautiful.	ええ！きれいね。	(応答)		
+4-38	4-3	4-3-7	At the entrance:	入り口にて：	(場面)		
+4-39	4-3	4-3-8	There are some rules for visitors.	訪問者にはいくつかのルールがあるんだ。	There are ~		
+4-40	4-3	4-3-9	We need to cover our shoulders and knees.	僕たちは肩と膝を覆う必要があるんだ。	need to do		
+4-41	4-3	4-3-10	"Oh, I can't go in with you."	ああ、あなたと中には入れないわ。	can't (cannot)	go in	
+4-42	4-3	4-3-11	Look at me.	私を見て。	look at ~		
+4-43	4-3	4-3-12	"You need something to cover your shoulders, right?"	君は肩を覆う何かが必要だよね？	不定詞(形容詞的用法)	right? (付加疑問)	
+4-44	4-3	4-3-13	You can wear my hoodie. Here!	僕のパーカーを着てもいいよ。はい！	can (許可)		
+4-45	4-3	4-3-14	There's no need for that.	その必要はないよ。	There is no ~		
+4-46	4-3	4-3-15	You can borrow clothes to cover yourself over there.	あそこで自分を覆うための服を借りられるよ。	不定詞(形容詞的用法)		
+4-47	4-3	4-3-16	"Oh, really? Thanks, Kota, but I'm OK."	あら、本当？ありがとう、コウタ、でも大丈夫よ。	"Thanks, but ..."		
+4-48	4-G	4-G-1	Chicken rice is the best food to try in Singapore.	チキンライスはシンガポールで試すべき最高の食べ物です。	最上級	不定詞(形容詞的用法)	
+4-49	4-G	4-G-2	It's good for a quick lunch.	それは手早い昼食にぴったりです。	be good for ~		
+4-50	4-G	4-G-3	"There are some nice chicken rice restaurants in the Marina area, and *Lion Cafe* is one of them."	マリーナエリアにはいくつか素敵なチキンライスレストランがあり、ライオンカフェはそのうちの一つです。	There are ~	one of ~	
+4-51	4-G	4-G-4	"Rice noodles in spicy coconut milk soup, a mixture of Chinese and Malay foods."	スパイシーなココナッツミルクスープに入った米麺、それは中華料理とマレー料理が混ざったものです。	(説明文)		
+4-52	4-G	4-G-5	"There are many kinds of laksa in Singapore, but the best is here at *Katong Laksa House*."	シンガポールにはたくさんの種類のラクサがありますが、最高なのはここ、カトンラクサハウスのものです。	There are ~	many kinds of ~	
+4-53	4-G	4-G-6	You'll find prawn mee stalls here and there.	あなたはあちこちでプロウンミーの屋台を見つけるでしょう。	will (You'll)	here and there	
+4-54	4-G	4-G-7	"*Old Tent,* on Arab Street, is one of them."	アラブストリートにあるオールドテントは、そのうちの一つです。	one of ~		
+4-55	4-G	4-G-8	"When you order, you can choose yellow noodles or rice noodles."	注文するとき、あなたは黄色い麺か米麺を選ぶことができます。	when (接続詞)	can	or
+4-56	4-G	4-G-9	There are big shrimps in the bowl.	丼の中には大きなエビが入っています。	There are ~		
+4-57	4-G	4-G-10	*Zahara* is an old restaurant on Arab Street.	ザハラはアラブストリートにある古いレストランです。			
+4-58	4-G	4-G-11	"They have so many dishes, but murtabak is the best."	そこにはとてもたくさんの料理がありますが、ムルタバが最高です。	so many ~		
+4-59	4-G	4-G-12	It's a spicy omelet pancake with vegetables.	それは野菜入りのスパイシーなオムレツパンケーキです。	with (?入りの)		
+4-60	4-G	4-G-13	Eat the dish while it's hot.	その料理が熱いうちに食べなさい。	命令文	while (接続詞)	
+4-61	4-G	4-G-14	It's crisp and super juicy!	それはサクサクで、とてもジューシーです！	and		
+4-62	4-G	4-G-15	I'm so hungry!	すごくお腹がすいた！	so (副詞)		
+4-63	4-G	4-G-16	I want to have lunch right now.	今すぐ昼食を食べたいわ。	want to do	right now	
+4-64	4-G	4-G-17	Is there a nice restaurant here on Arab Street?	ここアラブストリートに良いレストランはある？	There is ~ (疑問文)		
+4-65	4-G	4-G-18	I feel like eating rice noodles.	米麺が食べたい気分だわ。	feel like -ing		
+4-66	4-G	4-G-19	They're delicious and healthy.	それらは美味しくて健康的よ。	and		
+4-67	4-AG	AG3-1	I like basketball.	私はバスケットボールが好きです。			
+4-68	4-AG	AG3-2	I play it.	私はそれをします。			
+4-69	4-AG	AG3-3	I enjoy playing basketball.	私はバスケットボールをすることを楽しみます。	動名詞		
+4-70	4-AG	AG3-4	I want to play basketball.	私はバスケットボールをしたいです。	不定詞(名詞的用法)		
+4-71	4-AG	AG3-5	I showed you a guidebook.	私はあなたにガイドブックを見せました。	show A B (SVOO)		
+4-72	4-AG	AG3-6	I told him the plan.	私は彼にその計画を話しました。	tell A B (SVOO)		
+4-73	4-AG	AG3-7	I bought her a mug.	私は彼女にマグカップを買いました。	buy A B (SVOO)		
+4-74	4-AG	AG3-8	I gave them green tea.	私は彼らに緑茶をあげました。	give A B (SVOO)		
+4-75	4-AG	AG3-9	I'll send you an email.	私はあなたにEメールを送ります。	send A B (SVOO)	will (I'll)	

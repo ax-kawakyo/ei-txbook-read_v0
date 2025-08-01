@@ -1,0 +1,46 @@
+No	Unit	label	English	Japanese	grammer1	grammer2	grammer3
+4-A1	4-LR2	LR2-1	"When you hear the word ""robot,"" what kind of robot do you imagine?"	あなたが「ロボット」という言葉を聞くとき、どんな種類のロボットを想像しますか？	when (接続詞)	what kind of ~?	
+4-A2	4-LR2	LR2-2	"Some people think of anime characters, some people think of human-like robots that talk to people, 
+and some people think of home cleaning robots."	"アニメのキャラクターを思い浮かべる人もいれば、人と話す人間のようなロボットを思い浮かべる人もいれば、
+家庭用掃除ロボットを思い浮かべる人もいます。"	"Some ..., some ..., and some ..."	think of ~	関係代名詞(that)
+4-A3	4-LR2	LR2-3	Scientists are continuing to invent more and more robots.	科学者たちはますます多くのロボットを発明し続けています。	continue to do	more and more	
+4-A4	4-LR2	LR2-4	What kind of robots have they created?	彼らはどんな種類のロボットを創り出してきたのでしょうか？	現在完了形(結果)	what kind of ~?	
+4-A5	4-LR2	LR2-5	Let's look at some examples and think about the relationship between humans and robots.	いくつかの例を見て、人間とロボットの関係について考えてみましょう。	Let's do	look at ~	
+4-A6	4-LR2	LR2-6	"This is ""HAL,"" a robot suit. It's a cyborg-type robot."	これはロボットスーツ「HAL」です。それはサイボーグ型のロボットです。			
+4-A7	4-LR2	LR2-7	"HAL doesn't do anything by itself, but it helps people carry heavy things and protects them from injury."	HALはそれ自体では何もしませんが、人々が重いものを運ぶのを助け、怪我から彼らを守ります。	by itself	help O do	
+4-A8	4-LR2	LR2-8	HAL is used in care facilities.	HALは介護施設で使われています。	受動態		
+4-A9	4-LR2	LR2-9	It supports people who work there.	それはそこで働く人々をサポートします。	関係代名詞(who)		
+4-A10	4-LR2	LR2-10	It helps them transfer elderly people.	それは彼らが年配の人々を移すのを助けます。	help O do (to省略)		
+4-A11	4-LR2	LR2-11	"Elderly people can use HAL, too."	年配の人々もHALを使うことができます。	can		
+4-A12	4-LR2	LR2-12	It helps them move their body.	それは彼らが体を動かすのを助けます。	help O do (to省略)		
+4-A13	4-LR2	LR2-13	"In addition, it improves and maintains their physical functions."	加えて、それは彼らの身体機能を改善し、維持します。	In addition		
+4-A14	4-LR2	LR2-14	HAL can widen our possibilities.	HALは私たちの可能性を広げることができます。	can		
+4-A15	4-LR2	LR2-15	"Orihime is an ""avatar"" robot."	オリヒメは「アバター」ロボットです。			
+4-A16	4-LR2	LR2-16	Avatar means something that represents you in the virtual world.	アバターとは、仮想世界であなたを表現する何かを意味します。	関係代名詞(that)		
+4-A17	4-LR2	LR2-17	This robot can represent you and communicate with people in the real world.	このロボットはあなたを表現し、現実世界の人々とコミュニケーションをとることができます。	can		
+4-A18	4-LR2	LR2-18	One of the first OriHime users was Mr. Nagahiro Masato.	最初のオリヒメユーザーの一人は、ナガヒロ・マサトさんでした。	One of ~		
+4-A19	4-LR2	LR2-19	He was a 25-year-old man who had a serious illness.	彼は深刻な病気を患っていた25歳の男性でした。	関係代名詞(who)		
+4-A20	4-LR2	LR2-20	He didn't have a job before because he could not move his body.	彼は体を動かすことができなかったので、以前は仕事がありませんでした。	because	can (could)	
+4-A21	4-LR2	LR2-21	Then OriHime let him work at a cafe.	そこでオリヒメは彼がカフェで働くことを可能にしました。	let O do		
+4-A22	4-LR2	LR2-22	Orihime worked as his avatar.	オリヒメは彼のアバターとして働きました。			
+4-A23	4-LR2	LR2-23	Mr. Nagahiro controlled the robot with small movements of his fingers at home.	ナガヒロさんは家で、指のわずかな動きでロボットを操作しました。			
+4-A24	4-LR2	LR2-24	"He watched a live video that was sent from the robot's eyes, and he talked through a microphone."	彼はロボットの目から送られてくるライブ映像を見ながら、マイクを通して話しました。	関係代名詞(that)	受動態	
+4-A25	4-LR2	LR2-25	"That way, he was able to serve customers who came to the cafe."	そうすることで、彼はカフェに来た客に給仕することができました。	be able to do	関係代名詞(who)	
+4-A26	4-LR2	LR2-26	"Thanks to Orihime, he will be able to try new things in the future."	オリヒメのおかげで、彼は将来新しいことに挑戦することができるでしょう。	Thanks to ~	be able to do (未来)	
+4-A27	4-LR2	LR2-27	"Now, look at this picture."	さて、この写真を見てください。	look at ~		
+4-A28	4-LR2	LR2-28	This robot is called Sociable Trash Box.	このロボットは「社交的なゴミ箱」と呼ばれています。	受動態	call A B (の受動態)	
+4-A29	4-LR2	LR2-29	What does it do? Can you guess?	それは何をするのでしょうか？推測できますか？	doの疑問文	can	
+4-A30	4-LR2	LR2-30	"This robot finds trash on the floor, but it can't pick it up."	このロボットは床のゴミを見つけますが、それを拾うことはできません。	but	can't	pick ~ up
+4-A31	4-LR2	LR2-31	This robot needs somebody to help it.	このロボットはそれを助けてくれる誰かを必要としています。	to不定詞(形容詞的用法)		
+4-A32	4-LR2	LR2-32	"You may think it is useless or helpless, but you notice something interesting."	あなたはそれが役に立たない、あるいは無力だと思うかもしれませんが、何か面白いことに気づきます。	may	something + 形容詞	
+4-A33	4-LR2	LR2-33	"When this robot calls for help, people come to it and pick up the trash happily."	このロボットが助けを求めると、人々がそれに寄ってきて、楽しそうにゴミを拾います。	when (接続詞)	call for ~	pick ~ up
+4-A34	4-LR2	LR2-34	They enjoy helping the robot.	彼らはそのロボットを助けることを楽しみます。	enjoy -ing		
+4-A35	4-LR2	LR2-35	It makes people smile.	それは人々を笑顔にします。	make O do		
+4-A36	4-LR2	LR2-36	The person who developed this robot wanted people to recognize the value of cooperation.	このロボットを開発した人は、人々に協力の価値を認識してほしかったのです。	関係代名詞(who)	want A to do B	
+4-A37	4-LR2	LR2-37	"We may expect robots to be perfect, but Sociable Trash Box is made to be imperfect."	私たちはロボットが完璧であることを期待するかもしれませんが、「社交的なゴミ箱」は不完全であるように作られています。	expect A to be B	be made to do	
+4-A38	4-LR2	LR2-38	"When people help it, they understand the importance of being imperfect and the need to help each other."	人々がそれを助けるとき、彼らは不完全であることの重要性と、互いに助け合う必要性を理解します。	when (接続詞)	to不定詞(形容詞的用法)	
+4-A39	4-LR2	LR2-39	What kind of robot would you like to have?	あなたはどんな種類のロボットが欲しいですか？	would like to do	what kind of ~?	
+4-A40	4-LR2	LR2-40	What kind of relationships do you want to have with robots?	あなたはロボットとどんな関係を持ちたいですか？	want to do		
+4-A41	4-LR2	LR2-41	Do you think it is okay if robots are imperfect?	もしロボットが不完全でも構わないと思いますか？	think (that) S V	if (接続詞)	
+4-A42	4-LR2	LR2-42	They might help us learn to cooperate and be kind to others.	それらは私たちが協力し、他者に親切にすることを学ぶのを助けてくれるかもしれません。	might	help O do	
+4-A43	4-LR2	LR2-43	"We are already living with robots, so it is important and fun to think about these questions."	私たちはすでにロボットと共に生きており、だからこれらの問いについて考えることは重要で楽しいのです。	It is ~ to do ...		

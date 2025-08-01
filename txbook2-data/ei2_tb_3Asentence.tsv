@@ -1,0 +1,63 @@
+No	Unit	label	English	Japanese	grammer1	grammer2	grammer3
+3A-1	3-AG	AG-1	What are you going to do?	あなたは何をする予定ですか？	be going to	疑問詞(What)	
+3A-2	3-AG	AG-2	I'm going to visit Singapore this year.	私は今年シンガポールを訪れる予定です。	be going to		
+3A-3	3-AG	AG-3	Eri is going to visit her cousins.	エリは彼女のいとこを訪れる予定です。	be going to		
+3A-4	3-AG	AG-4	Is she going to visit her cousins?	彼女はいとこを訪れる予定ですか？	be going to (疑問文)		
+3A-5	3-AG	AG-5	She is not going to visit her cousins.	彼女はいとこを訪れる予定ではありません。	be going to (否定文)		
+3A-6	3-AG	AG-6	When will your flight arrive?	あなたのフライトはいつ到着しますか？	will	疑問詞(when)	
+3A-7	3-AG	AG-7	I'll meet you at the airport.	私は空港であなたに会います。	will (I'll)		
+3A-8	3-AG	AG-8	It will be hot in Singapore.	シンガポールは暑いでしょう。	will		
+3A-9	3-AG	AG-9	Will it be cool in Singapore?	シンガポールは涼しいでしょうか？	will (疑問文)		
+3A-10	3-AG	AG-10	It will not be cool in Singapore.	シンガポールは涼しくないでしょう。	will (否定文)		
+3A-11	3-LR1	LR1-1	"One day, a young woman was at an airport."	ある日、若い女性が空港にいました。	One day		
+3A-12	3-LR1	LR1-2	"She had a lot of time until her flight, so she decided to buy a book and read it."	彼女はフライトまでたくさんの時間があったので、本を一冊買って読むことに決めました。	a lot of ~	so (接続詞)	decide to do
+3A-13	3-LR1	LR1-3	She also bought a bag of cookies.	彼女はクッキーも一袋買いました。	also	a bag of ~	
+3A-14	3-LR1	LR1-4	She sat down on a comfortable seat at the airport and started to read the book.	彼女は空港の快適な席に座り、本を読み始めました。	sit down	start to do	
+3A-15	3-LR1	LR1-5	"After a while, a man sat down next to the woman, so that the cookies were between them."	しばらくして、一人の男性がその女性の隣に座り、その結果クッキーが彼らの間に置かれました。	after a while	next to ~	so that ~
+3A-16	3-LR1	LR1-6	He opened his magazine and started reading.	彼は雑誌を開き、読み始めました。	start -ing		
+3A-17	3-LR1	LR1-7	"When the woman took the first cookie from the bag, the man also took one."	その女性が袋から最初のクッキーを取ったとき、その男性も一つ取りました。	when (接続詞)		
+3A-18	3-LR1	LR1-8	She was surprised but said nothing.	彼女は驚きましたが、何も言いませんでした。	but		
+3A-19	3-LR1	LR1-9	What a nerve! she thought.	「なんてずうずうしいの！」と彼女は思いました。	What a ~! (感嘆文)		
+3A-20	3-LR1	LR1-10	"And then each time she took a cookie, the man took one, too."	そしてその後、彼女がクッキーを取るたびに、その男性も一つ取りました。	each time		
+3A-21	3-LR1	LR1-11	"She was angry, but she didn't want to cause a scene."	彼女は腹が立ちましたが、騒ぎは起こしたくありませんでした。	want to do		
+3A-22	3-LR1	LR1-12	"When they got to the last cookie, she thought: ""What will this rude man do now?"""	彼らが最後のクッキーにたどり着いたとき、彼女は思いました：「この失礼な男は今、何をするつもりかしら？」	get to ~	will	
+3A-23	3-LR1	LR1-13	"Then, the man took the last cookie, divided it in half, and gave one half to the woman with a smile on his face."	それから、その男性は最後のクッキーを取り、それを半分に分け、笑顔でその半分を女性に渡しました。	divide in half	give A to B	with a smile on one's face
+3A-24	3-LR1	LR1-14	This was too much.	これはあんまりだわ。	too (副詞)		
+3A-25	3-LR1	LR1-15	She didn't want to deal with him anymore.	彼女はもう彼と関わりたくありませんでした。	want to do	deal with ~	not ~ anymore
+3A-26	3-LR1	LR1-16	She quickly put away her book and went to the boarding area.	彼女は素早く本をしまい、搭乗エリアへ行きました。	put away ~		
+3A-27	3-LR1	LR1-17	"When she finally sat down in her seat on the plane, she looked into her bag."	彼女がついに飛行機の自分の席に座ったとき、彼女は自分のバッグの中を覗き込みました。	look into ~		
+3A-28	3-LR1	LR1-18	"To her horror, she saw her untouched bag of cookies!"	ぞっとしたことに、彼女は手付かずの自分のクッキーの袋を見ました！	To one's horror		
+3A-29	3-LR1	LR1-19	"If mine are here, that means...."	「もし私のがここにあるなら、それはつまり…」	if (接続詞)		
+3A-30	3-LR1	LR1-20	She felt so ashamed.	彼女はとても恥ずかしく感じました。	feel (の過去形)		
+3A-31	3-LR1	LR1-21	She was completely wrong about the man.	彼女はその男性について完全に思い違いをしていました。	be wrong about ~		
+3A-32	3-LR1	LR1-22	She forgot that her cookies were in her bag.	彼女は自分のクッキーがバッグの中にあることを忘れていました。	forget (の過去形)	that (接続詞)	
+3A-33	3-LR1	LR1-23	The man shared his cookies with her without being angry.	その男性は、怒ることもなく、彼女とクッキーを分け合いました。	share A with B	without -ing	
+3A-34	3-LR1	LR1-24	"She wanted to apologize to him, but it was too late."	彼女は彼に謝りたかったのですが、手遅れでした。	want to do	apologize to ~	
+3A-35	3-DL	DL4-1	Shall I take your order?	ご注文をお伺いしましょうか？	Shall I ~? (申し出)		
+3A-36	3-DL	DL4-2	"Yes, please. Can I have a Set A breakfast?"	はい、お願いします。Aセットの朝食をいただけますか？	Can I have ~? (注文)		
+3A-37	3-DL	DL4-3	Sure. Would you like a drink?	かしこまりました。お飲み物はいかがですか？	Would you like ~? (提案)		
+3A-38	3-DL	DL4-4	"Oh, yes. Watermelon juice, please."	ああ、はい。スイカジュースをお願いします。	(注文)		
+3A-39	3-DL	DL4-5	Certainly. Anything else?	かしこまりました。他にご注文は？	(口語表現)		
+3A-40	3-DL	DL4-6	That's all for now.	今のところは以上です。	(口語表現)		
+3A-41	3-YC	YC-1	Mika Laine (from Finland):	ミカ・ライネ（フィンランド出身）：	(見出し)		
+3A-42	3-YC	YC-2	"Hi, everyone. I'm Mika Laine. I'm from Tampere, in Finland."	みなさん、こんにちは。ミカ・ライネです。フィンランドのタンペレから来ました。	be from ~		
+3A-43	3-YC	YC-3	"In Japan, “Mika” is a popular name for girls, but in our country, it's popular for boys."	日本では「ミカ」は女の子に人気の名前ですが、私たちの国では男の子に人気です。	but		
+3A-44	3-YC	YC-4	"You can call me Mika-chan, if you want."	もしよかったら、ミカちゃんと呼んでください。	call A B	if (接続詞)	
+3A-45	3-YC	YC-5	My hobby is taking photos and sharing them with my friends.	私の趣味は写真を撮ることと、それを友達と共有することです。	動名詞(補語)	and	
+3A-46	3-YC	YC-6	I take a lot of photos every day.	私は毎日たくさんの写真を撮ります。	a lot of ~		
+3A-47	3-YC	YC-7	And I like sports very much.	そして私はスポーツがとても好きです。	very much		
+3A-48	3-YC	YC-8	I like playing volleyball and ice hockey.	私はバレーボールとアイスホッケーをするのが好きです。	like -ing		
+3A-49	3-YC	YC-9	I also like swimming and skiing.	私は水泳とスキーも好きです。	also		
+3A-50	3-YC	YC-10	I want to go to the beach or swimming pool this summer.	私はこの夏、ビーチかプールに行きたいです。	want to do	or	
+3A-51	3-YC	YC-11	Laura Matsumoto (from Brazil):	ローラ・マツモト（ブラジル出身）：	(見出し)		
+3A-52	3-YC	YC-12	"Hi! Konnichiwa. I'm Laura Matsumoto. I'm from S?o Paulo, in Brazil."	こんにちは！コンニチハ。ローラ・マツモトです。ブラジルのサンパウロから来ました。	be from ~		
+3A-53	3-YC	YC-13	My great-grandparents were Japanese.	私の曽祖父母は日本人でした。	be動詞(were)		
+3A-54	3-YC	YC-14	Many Japanese-Brazilians live in Brazil.	多くの日系ブラジル人がブラジルに住んでいます。			
+3A-55	3-YC	YC-15	"About 100 years ago, a lot of Japanese people came to Brazil for jobs."	約100年前、多くの日本人が仕事を求めてブラジルに来ました。	a lot of ~	for (目的)	
+3A-56	3-YC	YC-16	My great-grandparents were among them.	私の曽祖父母もその中にいました。	among ~		
+3A-57	3-YC	YC-17	I live with my parents and my brother.	私は両親と兄（弟）と一緒に住んでいます。	live with ~		
+3A-58	3-YC	YC-18	He is nine years old and very good at soccer.	彼は9歳で、サッカーがとても上手です。	~ years old	be good at ~	
+3A-59	3-YC	YC-19	I also play soccer.	私もサッカーをします。	also		
+3A-60	3-YC	YC-20	I like cycling and swimming.	私はサイクリングと水泳が好きです。	like -ing		
+3A-61	3-YC	YC-21	"I like eating Japanese food, too."	私は日本食を食べるのも好きです。	like -ing	too	
+3A-62	3-YC	YC-22	I want to go to a summer festival this summer.	私はこの夏、夏祭りに行きたいです。	want to do		
