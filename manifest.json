@@ -13,6 +13,12 @@
     "txbook2-data/ei2_tb_3Asentence.tsv",
     "txbook2-data/ei2_tb_4sentence.tsv",
     "txbook2-data/ei2_tb_4Asentence.tsv",
-    "txbook2-data/ei2_tb_1-4sentence.tsv"
+    "txbook2-data/ei2_tb_1-4sentence.tsv",
+    "txbook1-data/ei1_tb_1sentence.tsv",
+    "txbook1-data/ei1_tb_2sentence.tsv",
+    "txbook1-data/ei1_tb_3sentence.tsv",
+    "txbook1-data/ei1_tb_3Asentence.tsv",
+    "txbook1-data/ei1_tb_4sentence.tsv",
+    "txbook1-data/ei1_tb_1-4sentence.tsv"  
   ]
 }
