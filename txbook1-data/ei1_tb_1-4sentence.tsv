@@ -1,0 +1,216 @@
+No	Unit	label	English	Japanese	grammer1	grammer2	grammer3	
+1-1	1-H	1-H-1	Here we go!	さあ、行こう！/始めよう！	(口語表現)			
+1-2	1-H	1-H-2	What do you like?	あなたは何が好きですか？	疑問詞(What)	doの疑問文		
+1-3	1-H	1-H-3	My name is Kotaro.	私の名前はコウタロウです。	be動詞(is)			
+1-4	1-H	1-H-4	Hello.	こんにちは。	(挨拶)			
+1-5	1-H	1-H-5	Color: blue	色：青	(名詞)			
+1-6	1-H	1-H-6	Food: rice balls	食べ物：おにぎり	(名詞)			
+1-7	1-H	1-H-7	Season: I like fall.	季節：私は秋が好きです。	like			
+1-8	1-H	1-H-8	"My Favorite Things: music, animals, fireworks"	私の好きなもの：音楽、動物、花火	(名詞)			
+1-9	1-H	1-H-9	This is me!	これが私です！	be動詞(is)			
+1-10	1-H	1-H-10	My birthday is April 2.	私の誕生日は4月2日です。	be動詞(is)			
+1-11	1-H	1-H-11	I'm 13 years old.	私は13歳です。	be動詞(am)	~ years old		
+1-12	1-H	1-H-12	I live in Yokohama.	私は横浜に住んでいます。	live in ~			
+1-13	1-H	1-H-13	I can play the trumpet.	私はトランペットを演奏することができます。	can			
+1-14	1-1	1-1-1	I'm lost.	道に迷いました。	be動詞(am)			
+1-15	1-1	1-1-2	Thanks.	ありがとう。	(感謝)			
+1-16	1-1	1-1-3	I'm Tina.	私はティナです。	be動詞(am)			
+1-17	1-1	1-1-4	I'm a student there.	私はそこの学生です。	be動詞(am)			
+1-18	1-1	1-1-5	I'm Eri.	私はエリです。	be動詞(am)			
+1-19	1-1	1-1-6	Nice to meet you.	はじめまして。	(挨拶)			
+1-20	1-1	1-1-7	I'm Kotaro.	僕はコウタロウです。	be動詞(am)			
+1-21	1-1	1-1-8	Call me Kota.	僕をコウタと呼んでください。	call A B	命令文		
+1-22	1-1	1-1-9	I'm from Japan.	私は日本出身です。	be動詞(am)	I'm from ~		
+1-23	1-2	1-2-1	Look!	見て！	命令文			
+1-24	1-2	1-2-2	Beautiful.	きれい。	(感嘆)			
+1-25	1-2	1-2-3	I like spring.	私は春が好きです。	like			
+1-26	1-2	1-2-4	I don't like spring.	私は春が好きではありません。	do not (don't)			
+1-27	1-2	1-2-5	Why not?	どうして？	(口語表現)			
+1-28	1-2	1-2-6	Achoo!	ハクション！	(擬音語)			
+1-29	1-3	1-3-1	Hello.	こんにちは。	(挨拶)			
+1-30	1-3	1-3-2	I'm Tina.	私はティナです。	be動詞(am)			
+1-31	1-3	1-3-3	I'm from New York.	私はニューヨーク出身です。	be動詞(am)	I'm from ~		
+1-32	1-3	1-3-4	I like music and sports.	私は音楽とスポーツが好きです。	like	and		
+1-33	1-3	1-3-5	I can swim and play the drums.	私は泳ぐこととドラムを演奏することができます。	can	and		
+1-34	1-3	1-3-6	"I can't play the drums, but I can play the piano."	私はドラムを演奏することはできませんが、ピアノを弾くことはできます。	can't (cannot)	but	can	
+1-35	1-3	1-3-7	Cool!	すごい！	(感嘆)			
+1-36	1-G	1-G-1	Hello.	こんにちは。	(挨拶)			
+1-37	1-G	1-G-2	My name is ...	私の名前は...です。	be動詞(is)			
+1-38	1-G	1-G-3	All About Me	私のすべて	(タイトル)			
+1-39	1-G	1-G-4	Color	色	(項目)			
+1-40	1-G	1-G-5	Food	食べ物	(項目)			
+1-41	1-G	1-G-6	Season	季節	(項目)			
+1-42	1-G	1-G-7	I like ...	私は...が好きです。	like			
+1-43	1-G	1-G-8	My Favorite Things	私の好きなもの	(タイトル)			
+1-44	1-G	1-G-9	This is me!	これが私です！	be動詞(is)			
+1-45	1-G	1-G-10	My birthday is ...	私の誕生日は...です。	be動詞(is)			
+1-46	1-G	1-G-11	I'm ... years old.	私は...歳です。	be動詞(am)	~ years old		
+1-47	1-G	1-G-12	I live in ...	私は...に住んでいます。	live in ~			
+1-48	1-G	1-G-13	I can ...	私は...ができます。	can			
+2-1	2-H	2-H-1	Do you do club activities or committee activities?	あなたは部活動や委員会活動をしていますか？	doの疑問文	or		
+2-2	2-H	2-H-2	"Also, are there any activities you are interested in?"	また、何か興味のある活動はありますか？	Are there ~?	any	be interested in ~	
+2-3	2-H	2-H-3	Honcho J.H.S. Brass Band	本中中学校吹奏楽部	(団体名)			
+2-4	2-H	2-H-4	KENDO!	剣道！	(団体名)			
+2-5	2-H	2-H-5	New Members Welcome	新メンバー歓迎	(勧誘文)			
+2-6	2-H	2-H-6	Drama Club	演劇部	(団体名)			
+2-7	2-H	2-H-7	Science Club (On Tuesdays)	科学部（火曜日）	(団体名)			
+2-8	2-H	2-H-8	Join us!	私たちに加わって！	命令文			
+2-9	2-H	2-H-9	Do you like ART?	あなたは美術が好きですか？	doの疑問文	like		
+2-10	2-H	2-H-10	Swim Team (On Mondays and Thursdays)	水泳チーム（月曜日と木曜日）	(団体名)			
+2-11	2-H	2-H-11	BASKETBALL TEAM	バスケットボールチーム	(団体名)			
+2-12	2-H	2-H-12	TABLE TENNIS TEAM	卓球チーム	(団体名)			
+2-13	2-H	2-H-13	Broadcasting Committee	放送委員会	(団体名)			
+2-14	2-1	2-1-1	After classes:	授業のあと：	(場面)			
+2-15	2-1	2-1-2	Hello.	こんにちは。	(挨拶)			
+2-16	2-1	2-1-3	Are you new students?	あなたたちは新入生ですか？	be動詞の疑問文			
+2-17	2-1	2-1-4	Yes.	はい。	(応答)			
+2-18	2-1	2-1-5	Come in.	お入りなさい。	(命令文)			
+2-19	2-1	2-1-6	Here's the brass band.	こちらが吹奏楽部です。	Here is ~			
+2-20	2-1	2-1-7	"Thank you, Mr. Utada."	ありがとうございます、宇田先生。	(感謝)			
+2-21	2-2	2-2-1	Do you play an instrument?	あなたは何か楽器を演奏しますか？	doの疑問文			
+2-22	2-2	2-2-2	"Yes, I do."	はい、します。	(応答)			
+2-23	2-2	2-2-3	I play the trumpet a little.	私はトランペットを少し演奏します。	a little			
+2-24	2-2	2-2-4	"We usually practice on Mondays, Wednesdays, and Fridays."	私たちはたいてい月曜日、水曜日、金曜日に練習します。	usually (頻度)	on (曜日)		
+2-25	2-3	2-3-1	In the drama club:	演劇部にて：	(場面)			
+2-26	2-3	2-3-2	What's this?	これは何ですか？	疑問詞(What)			
+2-27	2-3	2-3-3	"Oh, it's a tongue twister."	おお、それは早口言葉です。	be動詞(is)			
+2-28	2-3	2-3-4	Can you read it?	あなたはそれを読むことができますか？	canの疑問文			
+2-29	2-3	2-3-5	Can you say it?	あなたはそれを言うことができますか？	canの疑問文			
+2-30	2-3	2-3-6	"No, I can't."	いいえ、できません。	(応答)			
+2-31	2-3	2-3-7	Repeat after me.	私の後に繰り返してください。	命令文	Repeat after ~		
+2-32	2-G	2-G-1	Do you like...?	あなたは...が好きですか？	doの疑問文	like		
+2-33	2-G	2-G-2	Are you interested in ...?	あなたは...に興味がありますか？	be動詞の疑問文	be interested in ~		
+2-34	2-G	2-G-3	Can you play ...?	あなたは...を演奏できますか？/（スポーツが）できますか？	canの疑問文			
+2-35	2-G	2-G-4	Come and join our team!	来て私たちのチームに加わってください！	命令文	and		
+2-36	2-G	2-G-5	This is my school.	これが私の学校です。	be動詞(is)			
+2-37	2-G	2-G-6	What do you do in your break time?	あなたは休み時間に何をしますか？	疑問詞(What)	doの疑問文	in one's break time	
+3-1	3-H	3-H-1	What do you do during the summer vacation every year?	あなたは毎年夏休みの間に何をしますか？	疑問詞(What)	doの疑問文		
+3-2	3-H	3-H-2	What do you want to do this year?	あなた今年はなにをしたいですか？	疑問詞(What)	want to do		
+3-3	3-H	3-H-3	see the fireworks	花火を見る	(動詞句)			
+3-4	3-H	3-H-4	do my homework	宿題をする	(動詞句)			
+3-5	3-H	3-H-5	climb mountains	山に登る	(動詞句)			
+3-6	3-H	3-H-6	go camping	キャンプに行く	(動詞句)			
+3-7	3-H	3-H-7	go to the beach	ビーチに行く	(動詞句)			
+3-8	3-H	3-H-8	visit my grandparents	祖父母を訪ねる	(動詞句)			
+3-9	3-H	3-H-9	go to the library	図書館に行く	(動詞句)			
+3-10	3-H	3-H-10	go to a summer festival	夏祭りに行く	(動詞句)			
+3-11	3-H	3-H-11	try yo-yo fishing	ヨーヨー釣りを試す	(動詞句)			
+3-12	3-H	3-H-12	eat watermelon	スイカを食べる	(動詞句)			
+3-13	3-1	3-1-1	What do you do during the summer vacation?	あなたは夏休みの間に何をしますか？	疑問詞(What)	doの疑問文		
+3-14	3-1	3-1-2	I usually visit my grandparents.	私はたいてい祖父母を訪ねます。	usually(頻度)			
+3-15	3-1	3-1-3	I go to the beach with my family.	私は家族と一緒にビーチへ行きます。	with(?と一緒に)			
+3-16	3-1	3-1-4	"That's boring, Kota."	それは退屈だよ、コウタ。	be動詞(is)			
+3-17	3-1	3-1-5	I just practice the trumpet.	僕はただトランペットを練習するだけだよ。	just			
+3-18	3-1	3-1-6	But I also go to the Honcho Summer Festival every year.	でも僕は毎年本町夏祭りにも行くよ。	also	every year		
+3-19	3-1	3-1-7	Sounds fun.	楽しそうだね。	sound + 形容詞			
+3-20	3-2	3-2-1	At the Honcho Summer Festival:	本町夏祭りにて：	(場面)			
+3-21	3-2	3-2-2	Listen.	聞いて。	命令文			
+3-22	3-2	3-2-3	What's that?	あれは何？	疑問詞(What)			
+3-23	3-2	3-2-4	Bon-odori.	盆踊りだよ。	(名詞)			
+3-24	3-2	3-2-5	It's a summer festival dance.	それは夏祭りの踊りだよ。	be動詞(is)			
+3-25	3-2	3-2-6	Ta-da!	じゃーん！	(擬音語)			
+3-26	3-2	3-2-7	Do you like it?	あなたはそれが好き？	doの疑問文	like		
+3-27	3-2	3-2-8	Really?	ほんと？	(感嘆)			
+3-28	3-2	3-2-9	I like dancing.	私は踊るのが好き。	動名詞			
+3-29	3-2	3-2-10	"Do you like dancing, Nick?"	ニック、あなたは踊るのが好き？	動名詞	doの疑問文		
+3-30	3-2	3-2-11	Of course.	もちろん。	(口語表現)			
+3-31	3-3	3-3-1	What are those?	あれらは何ですか？	疑問詞(What)	be動詞の疑問文		
+3-32	3-3	3-3-2	Balloons?	風船？	(名詞)			
+3-33	3-3	3-3-3	Yeah.	うん。	(応答)			
+3-34	3-3	3-3-4	They're like yo-yos.	それらはヨーヨーみたいだね。	be動詞(are)	like(?のようだ)		
+3-35	3-3	3-3-5	Do you want to try it?	それをやってみたい？	want to do	doの疑問文		
+3-36	3-3	3-3-6	Yes.	はい。	(応答)			
+3-37	3-3	3-3-7	I want to get that blue one.	僕はあの青いやつが欲しい。	want to do			
+3-38	3-3	3-3-8	"Go, Nick!"	行け、ニック！	命令文			
+3-39	3-3	3-3-9	"Oh, no."	ああ、だめだ。	(感嘆)			
+3-40	3-3	3-3-10	It's too heavy.	それは重すぎるよ。	be動詞(is)	too(?すぎる)		
+3-41	3-3	3-3-11	OK.	わかった。	(応答)			
+3-42	3-3	3-3-12	Watch me.	僕を見てて。	命令文			
+3-43	3-3	3-3-13	I'm a pro.	僕はプロだよ。	be動詞(am)			
+3A-1	3-LR1	LR1-1	Look at this picture.	この写真を見てください。	命令文	look at ~		
+3A-2	3-LR1	LR1-2	I can walk.	私は歩くことができます。	can			
+3A-3	3-LR1	LR1-3	I can jump.	私はジャンプすることができます。	can			
+3A-4	3-LR1	LR1-4	I can swim well.	私は上手に泳ぐことができます。	can			
+3A-5	3-LR1	LR1-5	"I cannot fly, but I can stay underwater for four or five minutes."	私は飛ぶことはできませんが、水中で4分か5分留まることができます。	cannot	but	can	
+3A-6	3-LR1	LR1-6	I don't like carrots.	私はニンジンが好きではありません。	do not (don't)			
+3A-7	3-LR1	LR1-7	I don't eat grass.	私は草を食べません。	do not (don't)			
+3A-8	3-LR1	LR1-8	I like fish.	私は魚が好きです。	like			
+3A-9	3-LR1	LR1-9	I eat fish every day.	私は毎日魚を食べます。	every day			
+3A-10	3-LR1	LR1-10	What am I?	私は何でしょう？	疑問詞(What)	be動詞の疑問文		
+3A-11	3-LR1	LR1-11	Turn this book around.	この本をひっくり返してください。	命令文	turn ~ around		
+3A-12	3-AG	AG1-1	Hello. I'm Tina.	こんにちは。私はティナです。	be動詞(am)			
+3A-13	3-AG	AG1-2	I'm from New York.	私はニューヨーク出身です。	be動詞(am)	I'm from ~		
+3A-14	3-AG	AG1-3	I am a new student.	私は新入生です。	be動詞(am)			
+3A-15	3-AG	AG1-4	You are a new student.	あなたは新入生です。	be動詞(are)			
+3A-16	3-AG	AG1-5	Are you a new student?	あなたは新入生ですか？	be動詞の疑問文			
+3A-17	3-AG	AG1-6	"Yes, I am. / No, I am not."	はい、そうです。／いいえ、違います。	(応答)			
+3A-18	3-AG	AG1-7	I am not a new student.	私は新入生ではありません。	be動詞の否定文			
+3A-19	3-AG	AG1-8	Hello. I'm Mr. Mole.	こんにちは。私はモールです。	be動詞(am)			
+3A-20	3-AG	AG1-9	I'm a big soccer fan.	私はサッカーの大ファンです。	be動詞(am)			
+3A-21	3-AG	AG1-10	"Noboru, are you a soccer fan?"	ノボル、あなたはサッカーファンですか？	be動詞の疑問文			
+3A-22	3-AG	AG1-11	"No, I'm not. I'm a big music fan."	いいえ、違います。私は音楽の大ファンです。	(応答)			
+3A-23	3-AG	AG1-12	I like music and sports.	私は音楽とスポーツが好きです。	like	and		
+3A-24	3-AG	AG1-13	I play the trumpet.	私はトランペットを演奏します。	play			
+3A-25	3-AG	AG1-14	Do you play the piano?	あなたはピアノを弾きますか？	doの疑問文	play		
+3A-26	3-AG	AG1-15	"Yes, I do. / No, I do not."	はい、弾きます。／いいえ、弾きません。	(応答)			
+3A-27	3-AG	AG1-16	I do not play the piano.	私はピアノを弾きません。	doの否定文	play		
+3A-28	3-AG	AG1-17	"Do you like music, Noboru?"	ノボル、あなたは音楽が好きですか？	doの疑問文	like		
+3A-29	3-AG	AG1-18	"Yes, of course."	はい、もちろん。	(応答)			
+3A-30	3-AG	AG1-19	"I like dancing, too."	私も踊ることが好きです。	動名詞	too		
+3A-31	3-AG	AG1-20	I can swim and play the drums.	私は泳ぐこととドラムを演奏することができます。	can	and		
+3A-32	3-AG	AG1-21	I can play the trumpet.	私はトランペットを演奏することができます。	can			
+3A-33	3-AG	AG1-22	Can you play the drums?	あなたはドラムを演奏することができますか？	canの疑問文			
+3A-34	3-AG	AG1-23	"Yes, I can. / No, I cannot."	はい、できます。／いいえ、できません。	(応答)			
+3A-35	3-AG	AG1-24	I cannot play the drums.	私はドラムを演奏することはできません。	cannot			
+3A-36	3-YC	YC-1	"You like listening to music, right?"	あなたは音楽を聴くのが好きですよね？	動名詞	"付加疑問(~, right?)"		
+3A-37	3-YC	YC-2	What kind of music do you like?	どんな種類の音楽が好きですか？	What kind of ~?	doの疑問文		
+3A-38	3-YC	YC-3	I like classical music.	私はクラシック音楽が好きです。	like			
+3A-39	3-YC	YC-4	I want to be a pianist.	私はピアニストになりたいです。	want to do			
+4-1	4-H	4-H-1	Do you have someone you want to introduce to your friends or teachers?	あなたには、友達や先生に紹介したい人はいますか？	doの疑問文	関係代名詞(目的格省略)	want to do	
+4-2	4-H	4-H-2	Who is it?	それは誰ですか？	疑問詞(Who)	be動詞の疑問文		
+4-3	4-H	4-H-3	Our Teachers	私たちの先生	(タイトル)			
+4-4	4-1	4-1-1	"Hello, I'm Hajin."	こんにちは、僕はハジンです。	be動詞(am)			
+4-5	4-1	4-1-2	I'm from Korea.	韓国出身です。	be動詞(am)	I'm from ~		
+4-6	4-1	4-1-3	"Hi, nice to meet you."	やあ、はじめまして。	(挨拶)			
+4-7	4-1	4-1-4	Call me Kota.	コウタと呼んでください。	call A B	命令文		
+4-8	4-1	4-1-5	This is Ms. Thusi.	こちらはトゥシ先生です。	be動詞(is)			
+4-9	4-1	4-1-6	She's our English teacher.	彼女は私たちの英語の先生です。	be動詞(is)			
+4-10	4-1	4-1-7	"Nice to meet you, Hajin."	はじめまして、ハジン。	(挨拶)			
+4-11	4-1	4-1-8	"Nice to meet you, too, Ms. Thusi."	こちらこそはじめまして、トゥシ先生。	too			
+4-12	4-1	4-1-9	That's Mr. Hoshino.	あちらはホシノ先生です。	be動詞(is)			
+4-13	4-1	4-1-10	He's our P.E. teacher.	彼は私たちの体育の先生です。	be動詞(is)			
+4-14	4-1	4-1-11	He's strict.	彼は厳しいです。	be動詞(is)			
+4-15	4-1	4-1-12	But he's popular.	でも彼は人気があります。	be動詞(is)			
+4-16	4-1	4-1-13	His class is fun.	彼の授業は面白いです。	be動詞(is)			
+4-17	4-1	4-1-14	I see.	なるほど。	(口語表現)			
+4-18	4-2	4-2-1	"Tina: Eri, who's that?"	ティナ：エリ、あれは誰？	疑問詞(Who)			
+4-19	4-2	4-2-2	Eri: Maybe he's a new student in Kota's class.	エリ：たぶんコウタのクラスの新入生よ。	maybe	in (所属)		
+4-20	4-2	4-2-3	"Tina: Cool. He's a good basketball player, isn't he?"	ティナ：かっこいいね。彼はバスケが上手よね？	付加疑問文	be動詞(is)		
+4-21	4-2	4-2-4	"Eri: Yes, he is."	エリ：ええ、そうよ。	(応答)			
+4-22	4-2	4-2-5	Tina: Do you want to meet him?	ティナ：彼に会ってみたい？	want to do	doの疑問文		
+4-23	4-2	4-2-6	Eri: Yes. Let's ask Kota.	エリ：ええ。コウタに聞いてみましょう。	Let's do			
+4-24	4-3	4-3-1	Kota and Hajin are in front of the school building.	コウタとハジンは校舎の前にいます。	be動詞(are)	in front of ~		
+4-25	4-3	4-3-2	Hajin: Is this our classroom?	ハジン：ここは私たちの教室ですか？	be動詞の疑問文			
+4-26	4-3	4-3-3	"Kota: No, it isn't. It's over here."	コウタ：いいえ、違います。あちらです。	(応答)	be動詞(is)	over here	
+4-27	4-3	4-3-4	Hajin: I see.	ハジン：なるほど。	(口語表現)			
+4-28	4-3	4-3-5	"Eri: Hi, Kota. Is he your classmate?"	エリ：こんにちは、コウタ。彼はあなたのクラスメート？	be動詞の疑問文			
+4-29	4-3	4-3-6	Kota: Yes. This is Hajin. He's from Korea.	コウタ：うん。こちらはハジン。彼は韓国出身だよ。	be動詞(is)	I'm from ~		
+4-30	4-3	4-3-7	"Eri: Hi, I'm Eri. Kota's neighbor."	エリ：こんにちは、私はエリ。コウタの隣人よ。	be動詞(am)			
+4-31	4-3	4-3-8	Hajin: Hi. Nice to meet you.	ハジン：こんにちは。はじめまして。	(挨拶)			
+4-32	4-3	4-3-9	"Tina: Hi, I'm Tina. I'm from New York. Nice to meet you."	ティナ：こんにちは、私はティナ。ニューヨーク出身よ。はじめまして。	be動詞(am)	I'm from ~		
+4-33	4-G	4-G-1	We want to introduce Mr. Nakamura.	私たちはナカムラ先生を紹介したいと思います。	want to do			
+4-34	4-G	4-G-2	He's our math teacher.	彼は私たちの数学の先生です。	be動詞(is)			
+4-35	4-G	4-G-3	He's from Okinawa.	彼は沖縄出身です。	be動詞(is)	I'm from ~		
+4-36	4-G	4-G-4	He's good at....	彼は...が得意です。	be動詞(is)	be good at ~		
+4-37	4-DL	DL-1	Whose pencil case is that?	あれは誰の筆箱ですか？	疑問詞(Whose)	be動詞の疑問文		
+4-38	4-DL	DL-2	Pencil case?	筆箱？	(名詞)			
+4-39	4-DL	DL-3	It's under your desk.	それはあなたの机の下にあります。	be動詞(is)	under ~		
+4-40	4-DL	DL-4	Is it yours?	それはあなたのものですか？	be動詞の疑問文	所有代名詞		
+4-41	4-DL	DL-5	"No, it's not mine."	いいえ、それは私のものではありません。	(応答)	be動詞の否定文	所有代名詞	
+4-42	4-DL	DL-6	Whose is it?	それは誰のものですか？	疑問詞(Whose)	be動詞の疑問文		
+4-43	4-DL	DL-7	Do you have any idea?	何か心当たりはありますか？	doの疑問文	any		
+4-44	4-DL	DL-8	"Well, maybe it's Hiro's."	ええと、たぶんヒロのです。	maybe	所有格('s)		
+4-45	4-DL	DL-9	Let's ask him.	彼に聞いてみましょう。	Let's do			
+4-46	4-AG	AG2-1	That's Mr. Hoshino.	あちらはホシノ先生です。	be動詞(is)			
+4-47	4-AG	AG2-2	He's our P.E. teacher.	彼は私たちの体育の先生です。	be動詞(is)			
+4-48	4-AG	AG2-3	His class is fun.	彼の授業は面白いです。	be動詞(is)			

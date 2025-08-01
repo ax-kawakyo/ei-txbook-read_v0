@@ -1,0 +1,40 @@
+No	Unit	label	English	Japanese	grammer1	grammer2	grammer3	
+3A-1	3-LR1	LR1-1	Look at this picture.	この写真を見てください。	命令文	look at ~		
+3A-2	3-LR1	LR1-2	I can walk.	私は歩くことができます。	can			
+3A-3	3-LR1	LR1-3	I can jump.	私はジャンプすることができます。	can			
+3A-4	3-LR1	LR1-4	I can swim well.	私は上手に泳ぐことができます。	can			
+3A-5	3-LR1	LR1-5	"I cannot fly, but I can stay underwater for four or five minutes."	私は飛ぶことはできませんが、水中で4分か5分留まることができます。	cannot	but	can	
+3A-6	3-LR1	LR1-6	I don't like carrots.	私はニンジンが好きではありません。	do not (don't)			
+3A-7	3-LR1	LR1-7	I don't eat grass.	私は草を食べません。	do not (don't)			
+3A-8	3-LR1	LR1-8	I like fish.	私は魚が好きです。	like			
+3A-9	3-LR1	LR1-9	I eat fish every day.	私は毎日魚を食べます。	every day			
+3A-10	3-LR1	LR1-10	What am I?	私は何でしょう？	疑問詞(What)	be動詞の疑問文		
+3A-11	3-LR1	LR1-11	Turn this book around.	この本をひっくり返してください。	命令文	turn ~ around		
+3A-12	3-AG	AG1-1	Hello. I'm Tina.	こんにちは。私はティナです。	be動詞(am)			
+3A-13	3-AG	AG1-2	I'm from New York.	私はニューヨーク出身です。	be動詞(am)	I'm from ~		
+3A-14	3-AG	AG1-3	I am a new student.	私は新入生です。	be動詞(am)			
+3A-15	3-AG	AG1-4	You are a new student.	あなたは新入生です。	be動詞(are)			
+3A-16	3-AG	AG1-5	Are you a new student?	あなたは新入生ですか？	be動詞の疑問文			
+3A-17	3-AG	AG1-6	"Yes, I am. / No, I am not."	はい、そうです。／いいえ、違います。	(応答)			
+3A-18	3-AG	AG1-7	I am not a new student.	私は新入生ではありません。	be動詞の否定文			
+3A-19	3-AG	AG1-8	Hello. I'm Mr. Mole.	こんにちは。私はモールです。	be動詞(am)			
+3A-20	3-AG	AG1-9	I'm a big soccer fan.	私はサッカーの大ファンです。	be動詞(am)			
+3A-21	3-AG	AG1-10	"Noboru, are you a soccer fan?"	ノボル、あなたはサッカーファンですか？	be動詞の疑問文			
+3A-22	3-AG	AG1-11	"No, I'm not. I'm a big music fan."	いいえ、違います。私は音楽の大ファンです。	(応答)			
+3A-23	3-AG	AG1-12	I like music and sports.	私は音楽とスポーツが好きです。	like	and		
+3A-24	3-AG	AG1-13	I play the trumpet.	私はトランペットを演奏します。	play			
+3A-25	3-AG	AG1-14	Do you play the piano?	あなたはピアノを弾きますか？	doの疑問文	play		
+3A-26	3-AG	AG1-15	"Yes, I do. / No, I do not."	はい、弾きます。／いいえ、弾きません。	(応答)			
+3A-27	3-AG	AG1-16	I do not play the piano.	私はピアノを弾きません。	doの否定文	play		
+3A-28	3-AG	AG1-17	"Do you like music, Noboru?"	ノボル、あなたは音楽が好きですか？	doの疑問文	like		
+3A-29	3-AG	AG1-18	"Yes, of course."	はい、もちろん。	(応答)			
+3A-30	3-AG	AG1-19	"I like dancing, too."	私も踊ることが好きです。	動名詞	too		
+3A-31	3-AG	AG1-20	I can swim and play the drums.	私は泳ぐこととドラムを演奏することができます。	can	and		
+3A-32	3-AG	AG1-21	I can play the trumpet.	私はトランペットを演奏することができます。	can			
+3A-33	3-AG	AG1-22	Can you play the drums?	あなたはドラムを演奏することができますか？	canの疑問文			
+3A-34	3-AG	AG1-23	"Yes, I can. / No, I cannot."	はい、できます。／いいえ、できません。	(応答)			
+3A-35	3-AG	AG1-24	I cannot play the drums.	私はドラムを演奏することはできません。	cannot			
+3A-36	3-YC	YC-1	"You like listening to music, right?"	あなたは音楽を聴くのが好きですよね？	動名詞	"付加疑問(~, right?)"		
+3A-37	3-YC	YC-2	What kind of music do you like?	どんな種類の音楽が好きですか？	What kind of ~?	doの疑問文		
+3A-38	3-YC	YC-3	I like classical music.	私はクラシック音楽が好きです。	like			
+3A-39	3-YC	YC-4	I want to be a pianist.	私はピアニストになりたいです。	want to do			
