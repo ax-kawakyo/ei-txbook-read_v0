@@ -1,0 +1,49 @@
+No	Unit	label	English	Japanese	grammer1	grammer2	grammer3	
+1-1	1-H	1-H-1	Here we go!	さあ、行こう！/始めよう！	(口語表現)			
+1-2	1-H	1-H-2	What do you like?	あなたは何が好きですか？	疑問詞(What)	doの疑問文		
+1-3	1-H	1-H-3	My name is Kotaro.	私の名前はコウタロウです。	be動詞(is)			
+1-4	1-H	1-H-4	Hello.	こんにちは。	(挨拶)			
+1-5	1-H	1-H-5	Color: blue	色：青	(名詞)			
+1-6	1-H	1-H-6	Food: rice balls	食べ物：おにぎり	(名詞)			
+1-7	1-H	1-H-7	Season: I like fall.	季節：私は秋が好きです。	like			
+1-8	1-H	1-H-8	"My Favorite Things: music, animals, fireworks"	私の好きなもの：音楽、動物、花火	(名詞)			
+1-9	1-H	1-H-9	This is me!	これが私です！	be動詞(is)			
+1-10	1-H	1-H-10	My birthday is April 2.	私の誕生日は4月2日です。	be動詞(is)			
+1-11	1-H	1-H-11	I'm 13 years old.	私は13歳です。	be動詞(am)	~ years old		
+1-12	1-H	1-H-12	I live in Yokohama.	私は横浜に住んでいます。	live in ~			
+1-13	1-H	1-H-13	I can play the trumpet.	私はトランペットを演奏することができます。	can			
+1-14	1-1	1-1-1	I'm lost.	道に迷いました。	be動詞(am)			
+1-15	1-1	1-1-2	Thanks.	ありがとう。	(感謝)			
+1-16	1-1	1-1-3	I'm Tina.	私はティナです。	be動詞(am)			
+1-17	1-1	1-1-4	I'm a student there.	私はそこの学生です。	be動詞(am)			
+1-18	1-1	1-1-5	I'm Eri.	私はエリです。	be動詞(am)			
+1-19	1-1	1-1-6	Nice to meet you.	はじめまして。	(挨拶)			
+1-20	1-1	1-1-7	I'm Kotaro.	僕はコウタロウです。	be動詞(am)			
+1-21	1-1	1-1-8	Call me Kota.	僕をコウタと呼んでください。	call A B	命令文		
+1-22	1-1	1-1-9	I'm from Japan.	私は日本出身です。	be動詞(am)	I'm from ~		
+1-23	1-2	1-2-1	Look!	見て！	命令文			
+1-24	1-2	1-2-2	Beautiful.	きれい。	(感嘆)			
+1-25	1-2	1-2-3	I like spring.	私は春が好きです。	like			
+1-26	1-2	1-2-4	I don't like spring.	私は春が好きではありません。	do not (don't)			
+1-27	1-2	1-2-5	Why not?	どうして？	(口語表現)			
+1-28	1-2	1-2-6	Achoo!	ハクション！	(擬音語)			
+1-29	1-3	1-3-1	Hello.	こんにちは。	(挨拶)			
+1-30	1-3	1-3-2	I'm Tina.	私はティナです。	be動詞(am)			
+1-31	1-3	1-3-3	I'm from New York.	私はニューヨーク出身です。	be動詞(am)	I'm from ~		
+1-32	1-3	1-3-4	I like music and sports.	私は音楽とスポーツが好きです。	like	and		
+1-33	1-3	1-3-5	I can swim and play the drums.	私は泳ぐこととドラムを演奏することができます。	can	and		
+1-34	1-3	1-3-6	"I can't play the drums, but I can play the piano."	私はドラムを演奏することはできませんが、ピアノを弾くことはできます。	can't (cannot)	but	can	
+1-35	1-3	1-3-7	Cool!	すごい！	(感嘆)			
+1-36	1-G	1-G-1	Hello.	こんにちは。	(挨拶)			
+1-37	1-G	1-G-2	My name is ...	私の名前は...です。	be動詞(is)			
+1-38	1-G	1-G-3	All About Me	私のすべて	(タイトル)			
+1-39	1-G	1-G-4	Color	色	(項目)			
+1-40	1-G	1-G-5	Food	食べ物	(項目)			
+1-41	1-G	1-G-6	Season	季節	(項目)			
+1-42	1-G	1-G-7	I like ...	私は...が好きです。	like			
+1-43	1-G	1-G-8	My Favorite Things	私の好きなもの	(タイトル)			
+1-44	1-G	1-G-9	This is me!	これが私です！	be動詞(is)			
+1-45	1-G	1-G-10	My birthday is ...	私の誕生日は...です。	be動詞(is)			
+1-46	1-G	1-G-11	I'm ... years old.	私は...歳です。	be動詞(am)	~ years old		
+1-47	1-G	1-G-12	I live in ...	私は...に住んでいます。	live in ~			
+1-48	1-G	1-G-13	I can ...	私は...ができます。	can			

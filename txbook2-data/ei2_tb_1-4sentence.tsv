@@ -1,0 +1,318 @@
+No	Unit	label	English	Japanese	grammer1	grammer2	grammer3
+1-1	1-H	1-H-1	Do you usually keep a diary?	あなたは普段、日記をつけていますか？	doの疑問文	usually (頻度)	
+1-2	1-1	1-1-1	We're all in the same class this year.	私たちは今年、みんな同じクラスです。	be動詞(are)	all	
+1-3	1-1	1-1-2	Yeah. Isn't it great?	ええ。素晴らしいじゃない？	be動詞の否定疑問文		
+1-4	1-1	1-1-3	Look! Hajin's here.	見て！ハジンが来たよ。	命令文		
+1-5	1-1	1-1-4	Hi! Long time no see.	やあ！久しぶり。	(挨拶)		
+1-6	1-1	1-1-5	Good to see you.	会えてうれしいよ。	to不定詞(副詞的用法)		
+1-7	1-1	1-1-6	How was your trip to Korea?	韓国への旅行はどうでしたか？	How ~?	be動詞(was)	
+1-8	1-1	1-1-7	It was great.	素晴らしかったです。	be動詞(was)		
+1-9	1-1	1-1-8	I went to Busan.	私はプサンへ行きました。	過去形		
+1-10	1-1	1-1-9	I visited my grandparents.	私は祖父母を訪ねました。	過去形		
+1-11	1-1	1-1-10	We met for the first time in half a year.	私たちは半年ぶりに会いました。	過去形	for the first time in ~	
+1-12	1-1	1-1-11	What else?	他には？	(口語表現)		
+1-13	1-1	1-1-12	I saw my friends in Seoul.	私はソウルで友達に会いました。	過去形		
+1-14	1-1	1-1-13	They were really interested in Japan.	彼らは日本にとても興味がありました。	be動詞(were)	be interested in ~	
+1-15	1-2	1-2-1	Hajin comes out of the library:	ハジンが図書室から出てくる：	(場面)		
+1-16	1-2	1-2-2	There you are! I was looking for you.	そこにいたんだ！あなたを探していたのよ。	(口語表現)	過去進行形	
+1-17	1-2	1-2-3	What were you doing?	何をしていたの？	過去進行形	疑問詞(What)	
+1-18	1-2	1-2-4	I was studying.	勉強していました。	過去進行形		
+1-19	1-2	1-2-5	"When I have free time, I often study Japanese here."	時間があるときは、よくここで日本語を勉強します。	when (接続詞)	often (頻度)	
+1-20	1-2	1-2-6	Kanji are really hard.	漢字は本当に難しいです。	be動詞(are)		
+1-21	1-2	1-2-7	I know.	わかるわ。	(同意)		
+1-22	1-2	1-2-8	"By the way, the school basketball tournament is next month, right?"	ところで、学校のバスケットボール大会は来月よね？	by the way	right? (付加疑問)	
+1-23	1-2	1-2-9	That's right.	その通りです。	(応答)		
+1-24	1-2	1-2-10	Can you coach the other students in the class?	クラスの他の生徒をコーチしてくれない？	Can you ~? (依頼)		
+1-25	1-2	1-2-11	Me?	僕が？	(応答)		
+1-26	1-2	1-2-12	"Yes, you! You're our choice."	ええ、あなたよ！あなたが私たちの選んだ人なの。	our (所有格)		
+1-27	1-2	1-2-13	Sure. What an honor!	もちろん。なんて光栄なんだ！	What a/an ~ ! (感嘆文)		
+1-28	1-3	1-3-1	"Thursday, April 6 (sunny)"	4月6日 木曜日（晴れ）	(日付)		
+1-29	1-3	1-3-2	It was a good day today.	今日は良い一日だった。	be動詞(was)		
+1-30	1-3	1-3-3	"Kota, Tina, Eri, and I are all in the same class."	コウタ、ティナ、エリ、そして僕はみんな同じクラスだ。	be動詞(are)	and	
+1-31	1-3	1-3-4	Everyone liked my gifts from Korea.	みんなが韓国からのお土産を気に入ってくれた。	過去形		
+1-32	1-3	1-3-5	They all looked happy.	彼らはみんな嬉しそうに見えた。	look + 形容詞		
+1-33	1-3	1-3-6	Awesome!	最高！	(感嘆)		
+1-34	1-3	1-3-7	"After school, Eri and I talked about the basketball tournament."	放課後、エリと僕はバスケットボール大会について話した。	talk about ~		
+1-35	1-3	1-3-8	She asked me about coaching.	彼女は僕にコーチングについて尋ねてきた。	ask A about B		
+1-36	1-3	1-3-9	"I was surprised at first, but I accepted the offer."	最初は驚いたけど、その申し出を受け入れた。	be surprised at ~	at first	but
+1-37	1-3	1-3-10	It sounds exciting.	それは面白そうだ。	sound + 形容詞		
+1-38	1-3	1-3-11	I want to show the joy of basketball to everyone.	僕はみんなにバスケットボールの楽しさを見せたい。	want to do	show A to B	
+1-39	1-G	1-G-1	"Kota's Diary: Sunday, April 16 (cloudy)"	コウタの日記：4月16日 日曜日（曇り）	(見出し)		
+1-40	1-G	1-G-2	"In the morning, I made breakfast by myself."	朝、私は一人で朝食を作った。	by oneself		
+1-41	1-G	1-G-3	It was not good.	それはおいしくなかった。	be動詞(was)の否定		
+1-42	1-G	1-G-4	"In the afternoon, I went to a movie with Hajin."	午後、私はハジンと映画に行った。	go to a movie		
+1-43	1-G	1-G-5	"When we were ordering drinks, Tina came up to us."	私たちが飲み物を注文していると、ティナが私たちのところにやって来た。	when (接続詞)	過去進行形	come up to ~
+1-44	1-G	1-G-6	We had a good time.	私たちは楽しい時を過ごした。	have a good time		
+1-45	1-G	1-G-7	"In the evening, I read a basketball magazine."	夕方、私はバスケットボールの雑誌を読んだ。	read (過去形)		
+1-46	1-G	1-G-8	Hajin lent it to me.	ハジンがそれを私に貸してくれた。	lend A to B		
+1-47	1-G	1-G-9	"He is excited about the tournament, but I'm not."	彼は大会にわくわくしているが、私はそうではない。	be excited about ~	but	
+1-48	1-G	1-G-10	"Tina's Diary: Sunday, April 16 (cloudy)"	ティナの日記：4月16日 日曜日（曇り）	(見出し)		
+1-49	1-G	1-G-11	Something surprising happened today.	今日、何か驚くべきことが起こった。	something + 形容詞		
+1-50	1-G	1-G-12	I went to a movie with Nick in the afternoon.	午後、私はニックと映画に行った。	go to a movie		
+1-51	1-G	1-G-13	We saw *Here We Go!*	私たちは『Here We Go!』を観た。	see (の過去形)		
+1-52	1-G	1-G-14	"After the movie, we found Kota and Hajin."	映画の後、私たちはコウタとハジンを見つけた。	find (の過去形)		
+1-53	1-G	1-G-15	I was really surprised.	私は本当に驚いた。	be surprised		
+1-54	1-G	1-G-16	"After that, we talked about the basketball tournament."	その後、私たちはバスケットボール大会について話した。	talk about ~		
+1-55	1-G	1-G-17	"Hajin and I got excited, but Kota looked a little nervous."	ハジンと私はわくわくしたが、コウタは少し緊張しているように見えた。	get + 形容詞	look + 形容詞	a little
+1-56	1-DL	DL1-1	Hello. This is Jack.	もしもし。ジャックです。	This is ~ (電話)		
+1-57	1-DL	DL1-2	"Hi, Jack. What's up?"	やあ、ジャック。どうしたの？	What's up?		
+1-58	1-DL	DL1-3	I want to go cycling next Sunday.	次の日曜日にサイクリングに行きたいんだ。	want to do	go -ing	
+1-59	1-DL	DL1-4	Why don't you come with me?	僕と一緒に行かない？	Why don't you ~? (勧誘)		
+1-60	1-DL	DL1-5	That sounds great. Sure.	それはいいね。もちろん。	sound + 形容詞		
+1-61	1-DL	DL1-6	How about meeting at the station?	駅で会うのはどう？	How about -ing?		
+1-62	1-DL	DL1-7	OK. What time do you want to meet?	いいよ。何時に会いたい？	疑問詞(What time)	want to do	
+1-63	1-DL	DL1-8	Can you be there at one o'clock?	1時にそこに来られる？	Can you ~?		
+1-64	1-DL	DL1-9	All right!	いいとも！	(応答)		
+2-1	2-H	2-H-1	Do you like playing basketball?	あなたはバスケットボールをするのが好きですか？	like -ing		
+2-2	2-H	2-H-2	Is Kota good at playing basketball?	コウタはバスケットボールをするのが得意ですか？	be good at -ing		
+2-3	2-1	2-1-1	At the gym	体育館で	(場面)		
+2-4	2-1	2-1-2	I don't like playing basketball.	僕はバスケットボールをするのが好きじゃない。	動名詞	don't	
+2-5	2-1	2-1-3	I'm not good at passing the ball.	僕はボールをパスするのが得意じゃないんだ。	be good at -ing		
+2-6	2-1	2-1-4	No problem.	問題ないよ。	(口語表現)		
+2-7	2-1	2-1-5	"For beginners, passing the ball isn't easy."	初心者にとって、ボールをパスするのは簡単じゃないよ。	動名詞(主語)	For ~ (?にとって)	
+2-8	2-1	2-1-6	But it's all right.	でも大丈夫さ。	(口語表現)		
+2-9	2-1	2-1-7	You just need some practice.	君はただ少し練習が必要なだけだよ。	just		
+2-10	2-1	2-1-8	On the way home	帰り道	(場面)		
+2-11	2-1	2-1-9	Are you nervous about the game?	試合のことで緊張してる？	be nervous about ~		
+2-12	2-1	2-1-10	"Actually, yes, a little bit."	実を言うと、うん、少しね。	(応答)		
+2-13	2-1	2-1-11	Don't worry! I saw you at the gym today.	心配しないで！今日、体育館で君を見たよ。	Don't worry.		
+2-14	2-1	2-1-12	You're doing great.	君はうまくやっているよ。	現在進行形		
+2-15	2-1	2-1-13	You think so? Thanks!	そう思う？ありがとう！	(口語表現)		
+2-16	2-2	2-2-1	Tina and Eri are watching the game:	ティナとエリは試合を見ています：	現在進行形		
+2-17	2-2	2-2-2	Look. We only have one more minute.	見て。あと1分しかないわ。	only	one more	
+2-18	2-2	2-2-3	We need more points.	もっと点数が必要よ。	more		
+2-19	2-2	2-2-4	Hajin wants to shoot.	ハジンがシュートをしたがっているわ。	不定詞(名詞的用法)		
+2-20	2-2	2-2-5	Yes. The important thing is to pass the ball to Hajin.	ええ。大切なのはハジンにボールをパスすることよ。	不定詞(名詞的用法)	be動詞(is)	
+2-21	2-2	2-2-6	It's not easy. They're trying to stop Kota.	それは簡単じゃないわ。彼らはコウタを止めようとしている。	try to do		
+2-22	2-2	2-2-7	"Look! It worked. Nice pass, Kota!"	見て！うまくいったわ。ナイスパス、コウタ！	(口語表現)		
+2-23	2-2	2-2-8	"Go, Hajin!"	行け、ハジン！	(応援)		
+2-24	2-3	2-3-1	After the game:	試合の後：	(場面)		
+2-25	2-3	2-3-2	Congratulations!	おめでとう！	(祝福)		
+2-26	2-3	2-3-3	You did it!	やったね！	(賞賛)		
+2-27	2-3	2-3-4	I think you guys did a great job.	君たちは素晴らしい仕事をしたと思うよ。	think (that) S V	do a great job	
+2-28	2-3	2-3-5	I'm sure you like playing basketball now.	君は今バスケットボールをするのが好きだと確信しているよ。	I'm sure (that) S V	like -ing	
+2-29	2-3	2-3-6	"Yeah, thanks to our coach, Hajin!"	ええ、僕たちのコーチ、ハジンのおかげです！	thanks to ~		
+2-30	2-3	2-3-7	You taught us well.	あなたは私たちによく教えてくれました。	teach (の過去形)		
+2-31	2-3	2-3-8	"Thanks. Kota, you made so much progress."	ありがとう。コウタ、君はすごく進歩したね。	make progress		
+2-32	2-3	2-3-9	I always believed you could do it.	僕は君ならできるといつも信じていたよ。	always (頻度)	believe (that) S V	could
+2-33	2-3	2-3-10	Practice makes perfect.	練習は完璧を生む。（習うより慣れよ）	(ことわざ)		
+2-34	2-3	2-3-11	We're so proud of you all!	私たちは君たちみんなをとても誇りに思うわ！	be proud of ~	so (副詞)	
+2-35	2-G	2-G-1	What do you want to do?	あなたは何がしたいですか？	疑問詞(What)	want to do	
+2-36	2-G	2-G-2	Why do you want to do that?	なぜそれがしたいのですか？	疑問詞(Why)	want to do	
+2-37	2-G	2-G-3	Let's dance!	踊りましょう！	Let's do		
+2-38	2-G	2-G-4	Because I think doing exercise is important for us.	なぜなら、運動することは私たちにとって重要だと思うからです。	Because	think (that) S V	動名詞(主語)
+2-39	2-DL	DL2-1	I don't like playing basketball.	私はバスケットボールをするのが好きではありません。	動名詞	like -ing	
+2-40	2-DL	DL2-2	I'm not good at passing the ball.	私はボールをパスするのが得意ではありません。	be good at -ing		
+2-41	2-DL	DL2-3	"For beginners, passing the ball isn't easy."	初心者にとって、ボールをパスすることは簡単ではありません。	動名詞(主語)		
+2-42	2-DL	DL2-4	I like playing soccer.	私はサッカーをすることが好きです。	動名詞	like -ing	
+2-43	2-DL	DL2-5	Playing soccer is fun.	サッカーをすることは楽しいです。	動名詞(主語)		
+2-44	2-DL	DL2-6	My hobby is playing soccer.	私の趣味はサッカーをすることです。	動名詞(補語)		
+2-45	2-DL	DL2-7	I am good at playing soccer.	私はサッカーをするのが得意です。	be good at -ing		
+2-46	2-DL	DL2-8	It began raining.	雨が降り始めました。	動名詞		
+2-47	2-DL	DL2-9	I enjoy swimming.	私は水泳を楽しみます。	動名詞		
+2-48	2-DL	DL2-10	I finished reading the book.	私はその本を読み終えました。	動名詞		
+2-49	2-AG	AG-1	Hajin wants to shoot.	ハジンはシュートを打ちたがっています。	不定詞(名詞的用法)		
+2-50	2-AG	AG-2	I like to play soccer.	私はサッカーをすることが好きです。	不定詞(名詞的用法)	like to do	
+2-51	2-AG	AG-3	To play soccer is fun.	サッカーをすることは楽しいです。	不定詞(名詞的用法/主語)		
+2-52	2-AG	AG-4	My dream is to play soccer in Italy.	私の夢はイタリアでサッカーをすることです。	不定詞(名詞的用法/補語)		
+2-53	2-AG	AG-5	It began to rain.	雨が降り始めました。	不定詞(名詞的用法)		
+2-54	2-AG	AG-6	I hope to see you.	あなたに会えることを願っています。	不定詞(名詞的用法)		
+2-55	2-AG	AG-7	I want to go on a trip.	私は旅行に行きたいです。	不定詞(名詞的用法)	go on a trip	
+3-1	3-H	3-H-1	What did you do last summer?	あなたは去年の夏、何をしましたか？	疑問詞(What)	didの疑問文	
+3-2	3-H	3-H-2	What do you want to do this summer?	あなたはこの夏、何をしたいですか？	疑問詞(What)	want to do	
+3-3	3-H	3-H-3	What's Kota's plan for the vacation?	コウタの休暇の計画は何ですか？	疑問詞(What)		
+3-4	3-1	3-1-1	"Do you have any plans for the summer, guys?"	夏休みの計画は何かある、みんな？	doの疑問文	any	
+3-5	3-1	3-1-2	I'm going to stay here.	僕はここにいるつもりだよ。	be going to		
+3-6	3-1	3-1-3	I have a basketball tournament.	バスケットボールの大会があるんだ。	have		
+3-7	3-1	3-1-4	I'm going to visit my cousins in Okinawa.	私は沖縄のいとこを訪ねるつもりよ。	be going to		
+3-8	3-1	3-1-5	"How about you, Tina?"	ティナ、あなたはどう？	How about ~?		
+3-9	3-1	3-1-6	What are you going to do?	あなたは何をするつもりなの？	be going to	疑問詞(What)	
+3-10	3-1	3-1-7	I'm going to visit Singapore this year.	私は今年シンガポールを訪れるつもりよ。	be going to		
+3-11	3-1	3-1-8	Really?	本当？	(応答)		
+3-12	3-1	3-1-9	My friend David is going to visit his relatives in Singapore.	私の友達のデイビッドがシンガポールにいる親戚を訪ねるの。	be going to		
+3-13	3-1	3-1-10	He invited me.	彼が私を招待してくれたの。	過去形		
+3-14	3-1	3-1-11	I'm jealous.	うらやましいな。	be動詞(am)		
+3-15	3-1	3-1-12	I'd like to visit Singapore someday.	いつかシンガポールを訪れたいな。	I'd like to do		
+3-16	3-1	3-1-13	Why don't you come to Singapore with me?	私と一緒にシンガポールに来ない？	Why don't you ~? (勧誘)		
+3-17	3-1	3-1-14	Are you kidding?	冗談でしょ？	(口語表現)		
+3-18	3-1	3-1-15	"No, I'm serious. Let's ask David!"	ううん、本気だよ。デイビッドに聞いてみましょう！	be動詞(am)	Let's do	
+3-19	3-2	3-2-1	From: David Lew	差出人：デイビッド・ルー	(Eメール形式)		
+3-20	3-2	3-2-2	"To: Christina Rios, Imura Kotaro"	宛先：クリスティーナ・リオス、イムラ・コウタロウ	(Eメール形式)		
+3-21	3-2	3-2-3	Subject: Your Flight	件名：あなたのフライト	(Eメール形式)		
+3-22	3-2	3-2-4	"Hi Tina and Kota,"	やあ、ティナとコウタ	(挨拶)		
+3-23	3-2	3-2-5	How are you?	元気ですか？	(挨拶)		
+3-24	3-2	3-2-6	Are you ready for your trip?	旅行の準備はできていますか？	be ready for ~		
+3-25	3-2	3-2-7	Did you finish packing?	荷造りは終えましたか？	didの疑問文	finish -ing	
+3-26	3-2	3-2-8	"It'll be hot next week, so don't forget your sunscreen and sunglasses!"	来週は暑くなるだろうから、日焼け止めとサングラスを忘れないでね！	will (It'll)	so (接続詞)	命令文(否定)
+3-27	3-2	3-2-9	"By the way, when will your flight arrive?"	ところで、あなたのフライトは何時に到着しますか？	by the way	疑問詞(when)	will
+3-28	3-2	3-2-10	I'll meet you at the airport.	空港で会いますね。	will (I'll)		
+3-29	3-2	3-2-11	I'm looking forward to seeing you guys. :)	君たちに会えるのを楽しみにしているよ。:)	look forward to -ing		
+3-30	3-2	3-2-12	"Take care,"	気をつけてね、	(結びの言葉)		
+3-31	3-2	3-2-13	David	デイビッド	(署名)		
+3-32	3-3	3-3-1	At Singapore Changi Airport:	シンガポール・チャンギ空港にて：	(場面)		
+3-33	3-3	3-3-2	"Welcome to Singapore, both of you!"	ようこそシンガポールへ、二人とも！	Welcome to ~		
+3-34	3-3	3-3-3	Good to see you.	会えてうれしいわ。	to不定詞(副詞的用法)		
+3-35	3-3	3-3-4	Same here.	こちらこそ。	(応答)		
+3-36	3-3	3-3-5	"Hi, David."	やあ、デイビッド。	(挨拶)		
+3-37	3-3	3-3-6	"Welcome, Kota! How was the flight?"	ようこそ、コウタ！フライトはどうだった？	How ~?		
+3-38	3-3	3-3-7	"It was a little scary, but exciting!"	少し怖かったけど、わくわくしたよ！	a little	but	
+3-39	3-3	3-3-8	"If you're tired, we can go straight home."	もし疲れているなら、まっすぐ家に帰れるよ。	if (接続詞)	can	
+3-40	3-3	3-3-9	"No, I'm fine."	いいえ、大丈夫よ。	(応答)		
+3-41	3-3	3-3-10	"If you're hungry, we can go to the food stalls in Chinatown."	もしお腹が空いているなら、チャイナタウンの屋台に行けるよ。	if (接続詞)	can	
+3-42	3-3	3-3-11	Excellent. I want to see the city.	最高だね。街を見てみたいな。	want to do		
+3-43	3-3	3-3-12	Sure. I'll show you around.	もちろん。案内してあげるよ。	will (I'll)	show ~ around	
+3-44	3-3	3-3-13	Awesome.	すごいね。	(感嘆)		
+3-45	3-G	3-G-1	From: David Lew	差出人：デイビッド・ルー	(Eメール形式)		
+3-46	3-G	3-G-2	To: Imura Kotaro	宛先：イムラ・コウタロウ	(Eメール形式)		
+3-47	3-G	3-G-3	Subject: Re: Your Flight	件名：Re: あなたのフライト	(Eメール形式)		
+3-48	3-G	3-G-4	"Hi Kota,"	やあ、コウタ	(挨拶)		
+3-49	3-G	3-G-5	Thanks for your reply.	返信ありがとう。	Thanks for ~		
+3-50	3-G	3-G-6	I'll be at the arrival exit by 3 p.m.	午後3時までに到着出口にいますね。	will (I'll)	by (期限)	
+3-51	3-G	3-G-7	"By the way, you're going to stay at my uncle's house."	ところで、君はおじさんの家に泊まることになっています。	by the way	be going to	
+3-52	3-G	3-G-8	He's really looking forward to seeing you.	彼が君に会えるのを本当に楽しみにしています。	look forward to -ing		
+3-53	3-G	3-G-9	He wants to know a few things for your stay.	彼は君の滞在のためにいくつか知りたいことがあるんだ。	want to do	a few	
+3-54	3-G	3-G-10	What food do you like or what food don't you like?	どんな食べ物が好き、あるいはどんな食べ物が好きじゃない？	疑問詞(What)	or	
+3-55	3-G	3-G-11	What do you want to do in Singapore?	シンガポールで何をしたい？	疑問詞(What)	want to do	
+3-56	3-G	3-G-12	Tina said that this is your first trip abroad.	ティナが、これが君の初めての海外旅行だと言っていたよ。	say (の過去形)	that (接続詞)	
+3-57	3-G	3-G-13	"If you're worried about anything, please feel free to ask me."	もし何か心配なことがあったら、遠慮なく僕に聞いてね。	if (接続詞)	be worried about ~	feel free to do
+3-58	3-G	3-G-14	See you soon!	またすぐに会いましょう！	(結びの言葉)		
+3-59	3-G	3-G-15	David	デイビッド	(署名)		
+3A-1	3-AG	AG-1	What are you going to do?	あなたは何をする予定ですか？	be going to	疑問詞(What)	
+3A-2	3-AG	AG-2	I'm going to visit Singapore this year.	私は今年シンガポールを訪れる予定です。	be going to		
+3A-3	3-AG	AG-3	Eri is going to visit her cousins.	エリは彼女のいとこを訪れる予定です。	be going to		
+3A-4	3-AG	AG-4	Is she going to visit her cousins?	彼女はいとこを訪れる予定ですか？	be going to (疑問文)		
+3A-5	3-AG	AG-5	She is not going to visit her cousins.	彼女はいとこを訪れる予定ではありません。	be going to (否定文)		
+3A-6	3-AG	AG-6	When will your flight arrive?	あなたのフライトはいつ到着しますか？	will	疑問詞(when)	
+3A-7	3-AG	AG-7	I'll meet you at the airport.	私は空港であなたに会います。	will (I'll)		
+3A-8	3-AG	AG-8	It will be hot in Singapore.	シンガポールは暑いでしょう。	will		
+3A-9	3-AG	AG-9	Will it be cool in Singapore?	シンガポールは涼しいでしょうか？	will (疑問文)		
+3A-10	3-AG	AG-10	It will not be cool in Singapore.	シンガポールは涼しくないでしょう。	will (否定文)		
+3A-11	3-LR1	LR1-1	"One day, a young woman was at an airport."	ある日、若い女性が空港にいました。	One day		
+3A-12	3-LR1	LR1-2	"She had a lot of time until her flight, so she decided to buy a book and read it."	彼女はフライトまでたくさんの時間があったので、本を一冊買って読むことに決めました。	a lot of ~	so (接続詞)	decide to do
+3A-13	3-LR1	LR1-3	She also bought a bag of cookies.	彼女はクッキーも一袋買いました。	also	a bag of ~	
+3A-14	3-LR1	LR1-4	She sat down on a comfortable seat at the airport and started to read the book.	彼女は空港の快適な席に座り、本を読み始めました。	sit down	start to do	
+3A-15	3-LR1	LR1-5	"After a while, a man sat down next to the woman, so that the cookies were between them."	しばらくして、一人の男性がその女性の隣に座り、その結果クッキーが彼らの間に置かれました。	after a while	next to ~	so that ~
+3A-16	3-LR1	LR1-6	He opened his magazine and started reading.	彼は雑誌を開き、読み始めました。	start -ing		
+3A-17	3-LR1	LR1-7	"When the woman took the first cookie from the bag, the man also took one."	その女性が袋から最初のクッキーを取ったとき、その男性も一つ取りました。	when (接続詞)		
+3A-18	3-LR1	LR1-8	She was surprised but said nothing.	彼女は驚きましたが、何も言いませんでした。	but		
+3A-19	3-LR1	LR1-9	What a nerve! she thought.	「なんてずうずうしいの！」と彼女は思いました。	What a ~! (感嘆文)		
+3A-20	3-LR1	LR1-10	"And then each time she took a cookie, the man took one, too."	そしてその後、彼女がクッキーを取るたびに、その男性も一つ取りました。	each time		
+3A-21	3-LR1	LR1-11	"She was angry, but she didn't want to cause a scene."	彼女は腹が立ちましたが、騒ぎは起こしたくありませんでした。	want to do		
+3A-22	3-LR1	LR1-12	"When they got to the last cookie, she thought: ""What will this rude man do now?"""	彼らが最後のクッキーにたどり着いたとき、彼女は思いました：「この失礼な男は今、何をするつもりかしら？」	get to ~	will	
+3A-23	3-LR1	LR1-13	"Then, the man took the last cookie, divided it in half, and gave one half to the woman with a smile on his face."	それから、その男性は最後のクッキーを取り、それを半分に分け、笑顔でその半分を女性に渡しました。	divide in half	give A to B	with a smile on one's face
+3A-24	3-LR1	LR1-14	This was too much.	これはあんまりだわ。	too (副詞)		
+3A-25	3-LR1	LR1-15	She didn't want to deal with him anymore.	彼女はもう彼と関わりたくありませんでした。	want to do	deal with ~	not ~ anymore
+3A-26	3-LR1	LR1-16	She quickly put away her book and went to the boarding area.	彼女は素早く本をしまい、搭乗エリアへ行きました。	put away ~		
+3A-27	3-LR1	LR1-17	"When she finally sat down in her seat on the plane, she looked into her bag."	彼女がついに飛行機の自分の席に座ったとき、彼女は自分のバッグの中を覗き込みました。	look into ~		
+3A-28	3-LR1	LR1-18	"To her horror, she saw her untouched bag of cookies!"	ぞっとしたことに、彼女は手付かずの自分のクッキーの袋を見ました！	To one's horror		
+3A-29	3-LR1	LR1-19	"If mine are here, that means...."	「もし私のがここにあるなら、それはつまり…」	if (接続詞)		
+3A-30	3-LR1	LR1-20	She felt so ashamed.	彼女はとても恥ずかしく感じました。	feel (の過去形)		
+3A-31	3-LR1	LR1-21	She was completely wrong about the man.	彼女はその男性について完全に思い違いをしていました。	be wrong about ~		
+3A-32	3-LR1	LR1-22	She forgot that her cookies were in her bag.	彼女は自分のクッキーがバッグの中にあることを忘れていました。	forget (の過去形)	that (接続詞)	
+3A-33	3-LR1	LR1-23	The man shared his cookies with her without being angry.	その男性は、怒ることもなく、彼女とクッキーを分け合いました。	share A with B	without -ing	
+3A-34	3-LR1	LR1-24	"She wanted to apologize to him, but it was too late."	彼女は彼に謝りたかったのですが、手遅れでした。	want to do	apologize to ~	
+3A-35	3-DL	DL4-1	Shall I take your order?	ご注文をお伺いしましょうか？	Shall I ~? (申し出)		
+3A-36	3-DL	DL4-2	"Yes, please. Can I have a Set A breakfast?"	はい、お願いします。Aセットの朝食をいただけますか？	Can I have ~? (注文)		
+3A-37	3-DL	DL4-3	Sure. Would you like a drink?	かしこまりました。お飲み物はいかがですか？	Would you like ~? (提案)		
+3A-38	3-DL	DL4-4	"Oh, yes. Watermelon juice, please."	ああ、はい。スイカジュースをお願いします。	(注文)		
+3A-39	3-DL	DL4-5	Certainly. Anything else?	かしこまりました。他にご注文は？	(口語表現)		
+3A-40	3-DL	DL4-6	That's all for now.	今のところは以上です。	(口語表現)		
+3A-41	3-YC	YC-1	Mika Laine (from Finland):	ミカ・ライネ（フィンランド出身）：	(見出し)		
+3A-42	3-YC	YC-2	"Hi, everyone. I'm Mika Laine. I'm from Tampere, in Finland."	みなさん、こんにちは。ミカ・ライネです。フィンランドのタンペレから来ました。	be from ~		
+3A-43	3-YC	YC-3	"In Japan, “Mika” is a popular name for girls, but in our country, it's popular for boys."	日本では「ミカ」は女の子に人気の名前ですが、私たちの国では男の子に人気です。	but		
+3A-44	3-YC	YC-4	"You can call me Mika-chan, if you want."	もしよかったら、ミカちゃんと呼んでください。	call A B	if (接続詞)	
+3A-45	3-YC	YC-5	My hobby is taking photos and sharing them with my friends.	私の趣味は写真を撮ることと、それを友達と共有することです。	動名詞(補語)	and	
+3A-46	3-YC	YC-6	I take a lot of photos every day.	私は毎日たくさんの写真を撮ります。	a lot of ~		
+3A-47	3-YC	YC-7	And I like sports very much.	そして私はスポーツがとても好きです。	very much		
+3A-48	3-YC	YC-8	I like playing volleyball and ice hockey.	私はバレーボールとアイスホッケーをするのが好きです。	like -ing		
+3A-49	3-YC	YC-9	I also like swimming and skiing.	私は水泳とスキーも好きです。	also		
+3A-50	3-YC	YC-10	I want to go to the beach or swimming pool this summer.	私はこの夏、ビーチかプールに行きたいです。	want to do	or	
+3A-51	3-YC	YC-11	Laura Matsumoto (from Brazil):	ローラ・マツモト（ブラジル出身）：	(見出し)		
+3A-52	3-YC	YC-12	"Hi! Konnichiwa. I'm Laura Matsumoto. I'm from S?o Paulo, in Brazil."	こんにちは！コンニチハ。ローラ・マツモトです。ブラジルのサンパウロから来ました。	be from ~		
+3A-53	3-YC	YC-13	My great-grandparents were Japanese.	私の曽祖父母は日本人でした。	be動詞(were)		
+3A-54	3-YC	YC-14	Many Japanese-Brazilians live in Brazil.	多くの日系ブラジル人がブラジルに住んでいます。			
+3A-55	3-YC	YC-15	"About 100 years ago, a lot of Japanese people came to Brazil for jobs."	約100年前、多くの日本人が仕事を求めてブラジルに来ました。	a lot of ~	for (目的)	
+3A-56	3-YC	YC-16	My great-grandparents were among them.	私の曽祖父母もその中にいました。	among ~		
+3A-57	3-YC	YC-17	I live with my parents and my brother.	私は両親と兄（弟）と一緒に住んでいます。	live with ~		
+3A-58	3-YC	YC-18	He is nine years old and very good at soccer.	彼は9歳で、サッカーがとても上手です。	~ years old	be good at ~	
+3A-59	3-YC	YC-19	I also play soccer.	私もサッカーをします。	also		
+3A-60	3-YC	YC-20	I like cycling and swimming.	私はサイクリングと水泳が好きです。	like -ing		
+3A-61	3-YC	YC-21	"I like eating Japanese food, too."	私は日本食を食べるのも好きです。	like -ing	too	
+3A-62	3-YC	YC-22	I want to go to a summer festival this summer.	私はこの夏、夏祭りに行きたいです。	want to do		
+4-1	4-H	4-H-1	What do you know about Singapore?	あなたはシンガポールについて何を知っていますか？	疑問詞(What)	doの疑問文	
+4-2	4-H	4-H-2	Where will Kota go in Singapore?	コウタはシンガポールでどこへ行くのでしょうか？	疑問詞(Where)	will	
+4-3	4-1	4-1-1	At a cafe:	カフェにて：	(場面)		
+4-4	4-1	4-1-2	Let's make a sightseeing plan!	観光プランを立てましょう！	Let's do		
+4-5	4-1	4-1-3	"OK, what do you want to do first?"	いいよ、最初に何をしたい？	疑問詞(What)	want to do	
+4-6	4-1	4-1-4	I want to see the Merlion.	僕はマーライオンが見たいな。	want to do		
+4-7	4-1	4-1-5	"Sure, but which one?"	もちろん、でもどれだい？	疑問詞(which)		
+4-8	4-1	4-1-6	There are several Merlions.	マーライオンはいくつかあるんだよ。	There are ~		
+4-9	4-1	4-1-7	Really?	本当に？	(応答)		
+4-10	4-1	4-1-8	"The big one by the bay, I guess."	湾のそばの大きいのかな、たぶん。	by ~ (場所)		
+4-11	4-1	4-1-9	Sure. Let's start from the Marina area.	もちろん。マリーナエリアから始めよう。	Let's do	start from ~	
+4-12	4-1	4-1-10	There is a big one there.	そこに大きいのがあるよ。	There is ~		
+4-13	4-1	4-1-11	Is there a big garden near there?	その近くに大きな庭園はある？	There is ~ (疑問文)		
+4-14	4-1	4-1-12	"Yeah, Gardens by the Bay."	うん、ガーデンズ・バイ・ザ・ベイだよ。	(応答)		
+4-15	4-1	4-1-13	"I want to go there, too."	僕もそこへ行きたいな。	want to do		
+4-16	4-1	4-1-14	I saw it on TV. It's so cool.	テレビで見たんだ。すごくかっこいいよね。	on TV		
+4-17	4-1	4-1-15	"After that, I'd like to see the traditional part of the city."	その後、私は街の伝統的な部分を見てみたいな。	I'd like to do		
+4-18	4-1	4-1-16	We can check out Arab Street later.	後でアラブストリートをチェックできるよ。	can	check out ~	
+4-19	4-2	4-2-1	At the Gardens by the Bay:	ガーデンズ・バイ・ザ・ベイにて：	(場面)		
+4-20	4-2	4-2-2	This is amazing!	これはすごいわ！	(感嘆)		
+4-21	4-2	4-2-3	Yeah. It's like a science fiction movie!	うん。SF映画みたいだね！	like (前置詞)		
+4-22	4-2	4-2-4	"Tina, show me your guidebook, please."	ティナ、君のガイドブックを見せて、お願い。	show A B	please	
+4-23	4-2	4-2-5	Here you are.	はい、どうぞ。	(口語表現)		
+4-24	4-2	4-2-6	It says the gardens produce their own energy.	それによると、この庭園は自分自身のエネルギーを生産しているって。	say (?と書いてある)		
+4-25	4-2	4-2-7	The Supertrees collect solar energy.	スーパーツリーが太陽エネルギーを集めているんだ。			
+4-26	4-2	4-2-8	That's good for the environment.	それは環境に良いことね。	be good for ~		
+4-27	4-2	4-2-9	Look! There's a walkway.	見て！遊歩道があるよ。	There is ~		
+4-28	4-2	4-2-10	Can we go up there?	あそこを上れるかな？	can	go up	
+4-29	4-2	4-2-11	Sure. I'll show you the way.	もちろん。道を案内するよ。	will (I'll)	show A B	
+4-30	4-2	4-2-12	Every part of the city has wheelchair access.	街のすべての部分に車椅子のアクセスがあるんだ。	Every ~		
+4-31	4-2	4-2-13	"Wow, that's great."	うわあ、それはすごいね。	(感嘆)		
+4-32	4-3	4-3-1	On Arab Street:	アラブストリートにて：	(場面)		
+4-33	4-3	4-3-2	"This is Arab Street, Kampong Gelam."	ここはアラブストリート、カンポングラムだよ。			
+4-34	4-3	4-3-3	Is that a mosque?	あれはモスク？	be動詞の疑問文		
+4-35	4-3	4-3-4	"Yes, Sultan Mosque."	うん、サルタン・モスクさ。	(応答)		
+4-36	4-3	4-3-5	Do you want to look inside?	中を見てみたい？	want to do		
+4-37	4-3	4-3-6	Yes! It's beautiful.	ええ！きれいね。	(応答)		
+4-38	4-3	4-3-7	At the entrance:	入り口にて：	(場面)		
+4-39	4-3	4-3-8	There are some rules for visitors.	訪問者にはいくつかのルールがあるんだ。	There are ~		
+4-40	4-3	4-3-9	We need to cover our shoulders and knees.	僕たちは肩と膝を覆う必要があるんだ。	need to do		
+4-41	4-3	4-3-10	"Oh, I can't go in with you."	ああ、あなたと中には入れないわ。	can't (cannot)	go in	
+4-42	4-3	4-3-11	Look at me.	私を見て。	look at ~		
+4-43	4-3	4-3-12	"You need something to cover your shoulders, right?"	君は肩を覆う何かが必要だよね？	不定詞(形容詞的用法)	right? (付加疑問)	
+4-44	4-3	4-3-13	You can wear my hoodie. Here!	僕のパーカーを着てもいいよ。はい！	can (許可)		
+4-45	4-3	4-3-14	There's no need for that.	その必要はないよ。	There is no ~		
+4-46	4-3	4-3-15	You can borrow clothes to cover yourself over there.	あそこで自分を覆うための服を借りられるよ。	不定詞(形容詞的用法)		
+4-47	4-3	4-3-16	"Oh, really? Thanks, Kota, but I'm OK."	あら、本当？ありがとう、コウタ、でも大丈夫よ。	"Thanks, but ..."		
+4-48	4-G	4-G-1	Chicken rice is the best food to try in Singapore.	チキンライスはシンガポールで試すべき最高の食べ物です。	最上級	不定詞(形容詞的用法)	
+4-49	4-G	4-G-2	It's good for a quick lunch.	それは手早い昼食にぴったりです。	be good for ~		
+4-50	4-G	4-G-3	"There are some nice chicken rice restaurants in the Marina area, and *Lion Cafe* is one of them."	マリーナエリアにはいくつか素敵なチキンライスレストランがあり、ライオンカフェはそのうちの一つです。	There are ~	one of ~	
+4-51	4-G	4-G-4	"Rice noodles in spicy coconut milk soup, a mixture of Chinese and Malay foods."	スパイシーなココナッツミルクスープに入った米麺、それは中華料理とマレー料理が混ざったものです。	(説明文)		
+4-52	4-G	4-G-5	"There are many kinds of laksa in Singapore, but the best is here at *Katong Laksa House*."	シンガポールにはたくさんの種類のラクサがありますが、最高なのはここ、カトンラクサハウスのものです。	There are ~	many kinds of ~	
+4-53	4-G	4-G-6	You'll find prawn mee stalls here and there.	あなたはあちこちでプロウンミーの屋台を見つけるでしょう。	will (You'll)	here and there	
+4-54	4-G	4-G-7	"*Old Tent,* on Arab Street, is one of them."	アラブストリートにあるオールドテントは、そのうちの一つです。	one of ~		
+4-55	4-G	4-G-8	"When you order, you can choose yellow noodles or rice noodles."	注文するとき、あなたは黄色い麺か米麺を選ぶことができます。	when (接続詞)	can	or
+4-56	4-G	4-G-9	There are big shrimps in the bowl.	丼の中には大きなエビが入っています。	There are ~		
+4-57	4-G	4-G-10	*Zahara* is an old restaurant on Arab Street.	ザハラはアラブストリートにある古いレストランです。			
+4-58	4-G	4-G-11	"They have so many dishes, but murtabak is the best."	そこにはとてもたくさんの料理がありますが、ムルタバが最高です。	so many ~		
+4-59	4-G	4-G-12	It's a spicy omelet pancake with vegetables.	それは野菜入りのスパイシーなオムレツパンケーキです。	with (?入りの)		
+4-60	4-G	4-G-13	Eat the dish while it's hot.	その料理が熱いうちに食べなさい。	命令文	while (接続詞)	
+4-61	4-G	4-G-14	It's crisp and super juicy!	それはサクサクで、とてもジューシーです！	and		
+4-62	4-G	4-G-15	I'm so hungry!	すごくお腹がすいた！	so (副詞)		
+4-63	4-G	4-G-16	I want to have lunch right now.	今すぐ昼食を食べたいわ。	want to do	right now	
+4-64	4-G	4-G-17	Is there a nice restaurant here on Arab Street?	ここアラブストリートに良いレストランはある？	There is ~ (疑問文)		
+4-65	4-G	4-G-18	I feel like eating rice noodles.	米麺が食べたい気分だわ。	feel like -ing		
+4-66	4-G	4-G-19	They're delicious and healthy.	それらは美味しくて健康的よ。	and		
+4-67	4-AG	AG3-1	I like basketball.	私はバスケットボールが好きです。			
+4-68	4-AG	AG3-2	I play it.	私はそれをします。			
+4-69	4-AG	AG3-3	I enjoy playing basketball.	私はバスケットボールをすることを楽しみます。	動名詞		
+4-70	4-AG	AG3-4	I want to play basketball.	私はバスケットボールをしたいです。	不定詞(名詞的用法)		
+4-71	4-AG	AG3-5	I showed you a guidebook.	私はあなたにガイドブックを見せました。	show A B (SVOO)		
+4-72	4-AG	AG3-6	I told him the plan.	私は彼にその計画を話しました。	tell A B (SVOO)		
+4-73	4-AG	AG3-7	I bought her a mug.	私は彼女にマグカップを買いました。	buy A B (SVOO)		
+4-74	4-AG	AG3-8	I gave them green tea.	私は彼らに緑茶をあげました。	give A B (SVOO)		
+4-75	4-AG	AG3-9	I'll send you an email.	私はあなたにEメールを送ります。	send A B (SVOO)	will (I'll)	
+5-1	5-H	5-H-1	Do you have an emergency bag?	あなたは非常用持ち出し袋を持っていますか？	doの疑問文		
+5-2	5-H	5-H-2	What will Kota and his friends talk about?	コウタと彼の友達は何について話すでしょうか？	疑問詞(What)	will	talk about ~

@@ -1,0 +1,56 @@
+No	Unit	label	English	Japanese	grammer1	grammer2	grammer3
+2-1	2-H	2-H-1	Do you like playing basketball?	あなたはバスケットボールをするのが好きですか？	like -ing		
+2-2	2-H	2-H-2	Is Kota good at playing basketball?	コウタはバスケットボールをするのが得意ですか？	be good at -ing		
+2-3	2-1	2-1-1	At the gym	体育館で	(場面)		
+2-4	2-1	2-1-2	I don't like playing basketball.	僕はバスケットボールをするのが好きじゃない。	動名詞	don't	
+2-5	2-1	2-1-3	I'm not good at passing the ball.	僕はボールをパスするのが得意じゃないんだ。	be good at -ing		
+2-6	2-1	2-1-4	No problem.	問題ないよ。	(口語表現)		
+2-7	2-1	2-1-5	"For beginners, passing the ball isn't easy."	初心者にとって、ボールをパスするのは簡単じゃないよ。	動名詞(主語)	For ~ (?にとって)	
+2-8	2-1	2-1-6	But it's all right.	でも大丈夫さ。	(口語表現)		
+2-9	2-1	2-1-7	You just need some practice.	君はただ少し練習が必要なだけだよ。	just		
+2-10	2-1	2-1-8	On the way home	帰り道	(場面)		
+2-11	2-1	2-1-9	Are you nervous about the game?	試合のことで緊張してる？	be nervous about ~		
+2-12	2-1	2-1-10	"Actually, yes, a little bit."	実を言うと、うん、少しね。	(応答)		
+2-13	2-1	2-1-11	Don't worry! I saw you at the gym today.	心配しないで！今日、体育館で君を見たよ。	Don't worry.		
+2-14	2-1	2-1-12	You're doing great.	君はうまくやっているよ。	現在進行形		
+2-15	2-1	2-1-13	You think so? Thanks!	そう思う？ありがとう！	(口語表現)		
+2-16	2-2	2-2-1	Tina and Eri are watching the game:	ティナとエリは試合を見ています：	現在進行形		
+2-17	2-2	2-2-2	Look. We only have one more minute.	見て。あと1分しかないわ。	only	one more	
+2-18	2-2	2-2-3	We need more points.	もっと点数が必要よ。	more		
+2-19	2-2	2-2-4	Hajin wants to shoot.	ハジンがシュートをしたがっているわ。	不定詞(名詞的用法)		
+2-20	2-2	2-2-5	Yes. The important thing is to pass the ball to Hajin.	ええ。大切なのはハジンにボールをパスすることよ。	不定詞(名詞的用法)	be動詞(is)	
+2-21	2-2	2-2-6	It's not easy. They're trying to stop Kota.	それは簡単じゃないわ。彼らはコウタを止めようとしている。	try to do		
+2-22	2-2	2-2-7	"Look! It worked. Nice pass, Kota!"	見て！うまくいったわ。ナイスパス、コウタ！	(口語表現)		
+2-23	2-2	2-2-8	"Go, Hajin!"	行け、ハジン！	(応援)		
+2-24	2-3	2-3-1	After the game:	試合の後：	(場面)		
+2-25	2-3	2-3-2	Congratulations!	おめでとう！	(祝福)		
+2-26	2-3	2-3-3	You did it!	やったね！	(賞賛)		
+2-27	2-3	2-3-4	I think you guys did a great job.	君たちは素晴らしい仕事をしたと思うよ。	think (that) S V	do a great job	
+2-28	2-3	2-3-5	I'm sure you like playing basketball now.	君は今バスケットボールをするのが好きだと確信しているよ。	I'm sure (that) S V	like -ing	
+2-29	2-3	2-3-6	"Yeah, thanks to our coach, Hajin!"	ええ、僕たちのコーチ、ハジンのおかげです！	thanks to ~		
+2-30	2-3	2-3-7	You taught us well.	あなたは私たちによく教えてくれました。	teach (の過去形)		
+2-31	2-3	2-3-8	"Thanks. Kota, you made so much progress."	ありがとう。コウタ、君はすごく進歩したね。	make progress		
+2-32	2-3	2-3-9	I always believed you could do it.	僕は君ならできるといつも信じていたよ。	always (頻度)	believe (that) S V	could
+2-33	2-3	2-3-10	Practice makes perfect.	練習は完璧を生む。（習うより慣れよ）	(ことわざ)		
+2-34	2-3	2-3-11	We're so proud of you all!	私たちは君たちみんなをとても誇りに思うわ！	be proud of ~	so (副詞)	
+2-35	2-G	2-G-1	What do you want to do?	あなたは何がしたいですか？	疑問詞(What)	want to do	
+2-36	2-G	2-G-2	Why do you want to do that?	なぜそれがしたいのですか？	疑問詞(Why)	want to do	
+2-37	2-G	2-G-3	Let's dance!	踊りましょう！	Let's do		
+2-38	2-G	2-G-4	Because I think doing exercise is important for us.	なぜなら、運動することは私たちにとって重要だと思うからです。	Because	think (that) S V	動名詞(主語)
+2-39	2-DL	DL2-1	I don't like playing basketball.	私はバスケットボールをするのが好きではありません。	動名詞	like -ing	
+2-40	2-DL	DL2-2	I'm not good at passing the ball.	私はボールをパスするのが得意ではありません。	be good at -ing		
+2-41	2-DL	DL2-3	"For beginners, passing the ball isn't easy."	初心者にとって、ボールをパスすることは簡単ではありません。	動名詞(主語)		
+2-42	2-DL	DL2-4	I like playing soccer.	私はサッカーをすることが好きです。	動名詞	like -ing	
+2-43	2-DL	DL2-5	Playing soccer is fun.	サッカーをすることは楽しいです。	動名詞(主語)		
+2-44	2-DL	DL2-6	My hobby is playing soccer.	私の趣味はサッカーをすることです。	動名詞(補語)		
+2-45	2-DL	DL2-7	I am good at playing soccer.	私はサッカーをするのが得意です。	be good at -ing		
+2-46	2-DL	DL2-8	It began raining.	雨が降り始めました。	動名詞		
+2-47	2-DL	DL2-9	I enjoy swimming.	私は水泳を楽しみます。	動名詞		
+2-48	2-DL	DL2-10	I finished reading the book.	私はその本を読み終えました。	動名詞		
+2-49	2-AG	AG-1	Hajin wants to shoot.	ハジンはシュートを打ちたがっています。	不定詞(名詞的用法)		
+2-50	2-AG	AG-2	I like to play soccer.	私はサッカーをすることが好きです。	不定詞(名詞的用法)	like to do	
+2-51	2-AG	AG-3	To play soccer is fun.	サッカーをすることは楽しいです。	不定詞(名詞的用法/主語)		
+2-52	2-AG	AG-4	My dream is to play soccer in Italy.	私の夢はイタリアでサッカーをすることです。	不定詞(名詞的用法/補語)		
+2-53	2-AG	AG-5	It began to rain.	雨が降り始めました。	不定詞(名詞的用法)		
+2-54	2-AG	AG-6	I hope to see you.	あなたに会えることを願っています。	不定詞(名詞的用法)		
+2-55	2-AG	AG-7	I want to go on a trip.	私は旅行に行きたいです。	不定詞(名詞的用法)	go on a trip	
